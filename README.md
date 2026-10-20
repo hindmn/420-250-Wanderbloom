@@ -1,3 +1,8 @@
-Nom du projet : **Sprout Lands**
-Les membres : hindmn, Gaeeelle, Sara-Belhadj, TArielle07
-Description : Wanderbloom est un jeu d’aventure RPG en 2D, avec une vue du dessus, dans lequel le joueur explore quatre niveaux : un village, une forêt, un village enneigé et une mine abandonnée. Chaque niveau propose une mission différente, comme récolter des légumes, ramasser du bois, récupérer des clés ou collecter des diamants. Le joueur devra interagir avec des personnages, accomplir les objectifs demandés et éviter les ennemis qui peuvent lui faire perdre des points de vie. Dans le dernier niveau, il devra récolter huit diamants afin de déverrouiller la porte de sortie. Le joueur remporte la partie lorsqu’il franchit cette porte. Il échoue lorsque ses points de vie atteignent zéro et doit recommencer le niveau.
+Nom du projet : 
+**Sprout Lands**
+
+Description : 
+Wanderbloom est un jeu d’aventure RPG en 2D, avec une vue du dessus, dans lequel le joueur explore quatre niveaux : un village, une forêt, un village enneigé et une mine abandonnée. Chaque niveau propose une mission différente, comme récolter des légumes, ramasser du bois, récupérer des clés ou collecter des diamants. Le joueur devra interagir avec des personnages, accomplir les objectifs demandés et éviter les ennemis qui peuvent lui faire perdre des points de vie. Dans le dernier niveau, il devra récolter huit diamants afin de déverrouiller la porte de sortie. Le joueur remporte la partie lorsqu’il franchit cette porte. Il échoue lorsque ses points de vie atteignent zéro et doit recommencer le niveau.
+
+Les membres : 
+hindmn, Gaeeelle, Sara-Belhadj, TArielle07
