@@ -1,8 +1,20 @@
-Nom du projet : 
-**Sprout Lands**
+# 🌿 Wanderbloom
 
-Description : 
-Wanderbloom est un jeu d’aventure RPG en 2D, avec une vue du dessus, dans lequel le joueur explore quatre niveaux : un village, une forêt, un village enneigé et une mine abandonnée. Chaque niveau propose une mission différente, comme récolter des légumes, ramasser du bois, récupérer des clés ou collecter des diamants. Le joueur devra interagir avec des personnages, accomplir les objectifs demandés et éviter les ennemis qui peuvent lui faire perdre des points de vie. Dans le dernier niveau, il devra récolter huit diamants afin de déverrouiller la porte de sortie. Le joueur remporte la partie lorsqu’il franchit cette porte. Il échoue lorsque ses points de vie atteignent zéro et doit recommencer le niveau.
+**Wanderbloom** est un jeu d'aventure RPG en 2D développé avec **Unity et C#**. Le joueur explore quatre niveaux : un village, une forêt, une forêt enneigée et une mine abandonnée. Chaque niveau propose des missions de collecte, des obstacles et des ennemis à éviter. L'objectif est de terminer les quatre niveaux et d'atteindre la sortie finale.
 
-Les membres : 
-hindmn, Gaeeelle, Sara-Belhadj, TArielle07
+## Équipe de développement
+
+- **Hind Manouzi** — [@hindmn](https://github.com/hindmn)
+- **Arielle Talabert** — [@TArielle07](https://github.com/TArielle07)
+- **Sara Belhadj** — [@à compléter](https://github.com/Sara-Belhadj)
+- **Gaelle Espérance Baman Lissom** — [@Gaeeelle](https://github.com/Gaeeelle)
+
+## Technologies
+
+- Unity 2D
+- C#
+- Git & GitHub
+
+## Genre
+
+Aventure RPG · 2D · Pixel Art
