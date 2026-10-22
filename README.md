@@ -6,7 +6,7 @@
 
 - **Hind Manouzi** — [@hindmn](https://github.com/hindmn)
 - **Arielle Talabert** — [@TArielle07](https://github.com/TArielle07)
-- **Sara Belhadj** — [@à compléter](https://github.com/Sara-Belhadj)
+- **Sara Belhadj** — [@Sara-Belhadj](https://github.com/Sara-Belhadj)
 - **Gaelle Espérance Baman Lissom** — [@Gaeeelle](https://github.com/Gaeeelle)
 
 ## Technologies
