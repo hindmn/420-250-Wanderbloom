@@ -5,9 +5,24 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 8ccd3b29a8bc8aa46a1bf3d90312be93
+  - enabled: 1
+    path: Assets/Scenes/Level01_Village.unity
+    guid: d6adc012e2b30ca4294531b6a899a64e
+  - enabled: 1
+    path: Assets/Scenes/Level02_Forest.unity
+    guid: c87b7df749417704c804073ad642dc22
+  - enabled: 1
+    path: Assets/Scenes/Level03_SnowyForest.unity
+    guid: 78c920cc3c424034e8bb20d9184a629f
+  - enabled: 1
+    path: Assets/Scenes/Level04_Mine.unity
+    guid: a6adc22c9f984474d989deb8b7212e68
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
