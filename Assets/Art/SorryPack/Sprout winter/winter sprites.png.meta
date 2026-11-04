@@ -411,9 +411,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 112
-        y: 48
-        width: 32
-        height: 47
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -434,7 +434,7 @@ TextureImporter:
         serializedVersion: 2
         x: 144
         y: 80
-        width: 48
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -583,12 +583,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: winter sprites_18
+      name: cat_3
       rect:
         serializedVersion: 2
-        x: 97
+        x: 96
         y: 48
-        width: 14
+        width: 16
         height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -846,6 +846,116 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: snowman_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19aae70dd16cf27468e88269e8573cc2
+      internalID: -554461696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowman_3
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b496953b8ce1a34cba73bd3dafeafcd
+      internalID: -1069539376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chat_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34600f1ca2d3a0d499ef2a9cfcd51cb4
+      internalID: -414707329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_snowman1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658ea44490f08924e85baa237bbb17e6
+      internalID: 1760024086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_snowman2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9f6a8d205371546b9f60a01f238bee
+      internalID: 1868457953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -862,6 +972,12 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
+      big_snowman1: 1760024086
+      big_snowman2: 1868457953
+      cat_3: 2794051039475624994
+      chat_2: -414707329
+      snowman_2: -554461696
+      snowman_3: -1069539376
       winter sprites_0: -6026170205353707420
       winter sprites_1: 6769685725798313213
       winter sprites_10: -4141437461562616532
@@ -872,7 +988,6 @@ TextureImporter:
       winter sprites_15: 8363762123694421017
       winter sprites_16: 1719421578470222973
       winter sprites_17: 3921916585432102504
-      winter sprites_18: 2794051039475624994
       winter sprites_19: -5075253345923744371
       winter sprites_2: 1659498764190006098
       winter sprites_20: -7414049745895947426
