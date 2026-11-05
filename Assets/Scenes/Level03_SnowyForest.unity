@@ -3178,7 +3178,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3691862329619224989, guid: bcddd3b96f56879419b5262dc5b6cfe3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -11.55
+      value: -11.5
       objectReference: {fileID: 0}
     - target: {fileID: 3691862329619224989, guid: bcddd3b96f56879419b5262dc5b6cfe3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -30512,7 +30512,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Campfire
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1783687832947090716, guid: bcddd3b96f56879419b5262dc5b6cfe3, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
