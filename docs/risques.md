@@ -6,7 +6,7 @@
 # Synthèse
 
 | ID | Risque | Criticité | Responsable |
-|--------|------|-----------------------------------|
+|----|--------|-----------|-------------|
 | R1 | BF-06 et BF-10 pas terminés à temps | 9 (élevée) | Arielle |
 | R2 | Conflits dans le comportement du joueur | 6 (élevée) | Hind |
 | R3 | BF du niveau 2 qui ne décrivent plus la forêt | 6 (élevée) | Gaelle |
