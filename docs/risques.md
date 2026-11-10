@@ -3,7 +3,7 @@
 Échelles : P et I de 1 à 3. Criticité = P × I
 (1-2 faible, 3-4 moyenne, 6-9 élevée). Revu à chaque sprint planning.
 
-# Synthèse
+# Synthèse (de la criticité la plus haute à la plus basse)
 
 | ID | Risque | Criticité | Responsable |
 |----|--------|-----------|-------------|
