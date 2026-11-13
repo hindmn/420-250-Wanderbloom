@@ -8,16 +8,33 @@ namespace Arielle
     public class PlayerMovement : MonoBehaviour
     {
         
-        void Start()
-        {
+        [SerializeField] private float vitesse = 4f;
+        private Rigidbody2D rigidb;
+        private Vector2 direction;
+        
 
+        
+        private void Awake()
+        {
+            rigidb = GetComponent<Rigidbody2D>();
+
+            
         }
 
        
-        void Update()
+        private void Update()
         {
-
+            direction = Vector2.zero;
+            var clavier = Keyboard.current;
+            if (clavier == null) return;
         }
+
+        private void FixedUpdate()
+        {
+            rigidb.linearVelocity = direction * vitesse;
+        }
+
+
     }
 }
 
