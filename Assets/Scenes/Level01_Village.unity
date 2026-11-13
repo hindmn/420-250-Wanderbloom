@@ -21710,6 +21710,7 @@ GameObject:
   - component: {fileID: 2011894008}
   - component: {fileID: 2011894011}
   - component: {fileID: 2011894010}
+  - component: {fileID: 2011894012}
   m_Layer: 0
   m_Name: TheChicken
   m_TagString: Untagged
@@ -21839,7 +21840,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.5
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 0
@@ -21854,6 +21855,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &2011894012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011894007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c5c5fdf443f4b7468a1cacbd9be9aae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TheChickenMovement
+  vitesse: 2
+  pause: 1.5
+  player: {fileID: 1615964062}
 --- !u!1 &2025367622
 GameObject:
   m_ObjectHideFlags: 0

@@ -8,7 +8,7 @@ namespace Arielle
     public class PlayerMovement : MonoBehaviour
     {
         
-        [SerializeField] private float vitesse = 3f;
+        [SerializeField] private float vitesse = 4f;
         [SerializeField] private InputAction deplacement;
         private Rigidbody2D rigidb;
         private Vector2 direction;

@@ -16,15 +16,36 @@ namespace Arielle
         private float finPause = 0f;
 
 
-        void Start()
+        private void Awake()
         {
-            
+            rb = GetComponent<Rigidbody2D>();
+            sr = GetComponent<SpriteRenderer>();
         }
 
 
-        void Update()
+        private void FixedUpdate()
         {
+            if(Time.time < finPause)
+            {
+                rb.linearVelocity = Vector2.zero;
+            }
 
+            Vector2 direction = ((Vector2)player.position - rb.position).normalized;
+            rb.linearVelocity = direction * vitesse;
+
+            if(direction.x != 0)
+            
+                sr.flipX = direction.x < 0;
+            
+
+        }
+
+        private void OnCollisionEnter2D(Collision2D collision)
+        {
+            if (collision.gameObject.CompareTag("Player"))
+            {
+                finPause = Time.time + pause;
+            }
         }
     }
 }
