@@ -6,6 +6,8 @@ namespace Arielle
 {
     public class TheChickenMovement : MonoBehaviour
     {
+        [SerializeField] private Vector2 limiteMin = new Vector2(-10f, -5f);
+        [SerializeField] private Vector2 limiteMax = new Vector2(10f, 5f);
 
         [SerializeField] private float vitesse = 2f;
         [SerializeField] private float pause = 1.5f;
@@ -32,8 +34,9 @@ namespace Arielle
 
             Vector2 direction = ((Vector2)player.position - rb.position).normalized;
             rb.linearVelocity = direction * vitesse;
+            rb.position = Limites.Limiter(rb.position, limiteMin, limiteMax);
 
-            if(direction.x != 0)
+            if (direction.x != 0)
             
                 sr.flipX = direction.x < 0;
             

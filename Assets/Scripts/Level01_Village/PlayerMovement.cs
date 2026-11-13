@@ -7,7 +7,9 @@ namespace Arielle
     [RequireComponent(typeof(Rigidbody2D))]
     public class PlayerMovement : MonoBehaviour
     {
-        
+        [SerializeField] private Vector2 limiteMin = new Vector2(-10f, -5f);
+        [SerializeField] private Vector2 limiteMax = new Vector2(10f, 5f);
+
         [SerializeField] private float vitesse = 4f;
         [SerializeField] private InputAction deplacement;
         private Rigidbody2D rigidb;
@@ -42,6 +44,7 @@ namespace Arielle
         private void FixedUpdate()
         {
             rigidb.linearVelocity = direction * vitesse;
+            rigidb.position = Limites.Limiter(rigidb.position, limiteMin, limiteMax);
         }
 
 
