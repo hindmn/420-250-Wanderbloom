@@ -1146,8 +1146,8 @@ Transform:
   m_GameObject: {fileID: 97547107}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.0043883, y: -0.0032076836, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 5.0756, y: -0.0032076836, z: 0}
+  m_LocalScale: {x: 1.1017559, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1689910931}
@@ -1601,8 +1601,8 @@ Transform:
   m_GameObject: {fileID: 142961152}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.963616, y: -0.0032076836, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 8.0247, y: -0.0032076836, z: 0}
+  m_LocalScale: {x: 1.1221, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1689910931}
@@ -6333,8 +6333,8 @@ Transform:
   m_GameObject: {fileID: 640081075}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.9926867, y: -0.0032076836, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 3.9826, y: -0.0032076836, z: 0}
+  m_LocalScale: {x: 1.2237684, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1689910931}
@@ -11649,8 +11649,8 @@ Transform:
   m_GameObject: {fileID: 1058189705}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.2635212, y: -9.185616, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 3.2016, y: -9.185616, z: 0}
+  m_LocalScale: {x: 1.1238, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1689910931}
@@ -13323,8 +13323,8 @@ Transform:
   m_GameObject: {fileID: 1243423943}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.224402, y: -9.179022, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 10.1802, y: -9.179022, z: 0}
+  m_LocalScale: {x: 1.0884, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1689910931}
@@ -18042,6 +18042,97 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13f7782fbbf2add4c832448a4c5913f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
+  vitesse: 4
+  deplacement:
+    m_Name: Deplacement
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 26cc6e50-3d37-4839-9719-f5bc5a80e60f
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 2D Vector
+      m_Id: f21e411d-ee9f-450d-8dcd-b5b5730a26f2
+      m_Path: 2DVector
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Deplacement
+      m_Flags: 4
+    - m_Name: up
+      m_Id: fbed691d-4e9a-4476-a728-f9e739e9d406
+      m_Path: <Keyboard>/upArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Deplacement
+      m_Flags: 8
+    - m_Name: down
+      m_Id: 251d5ee4-ed13-4e8b-9afa-a91b0d5a9717
+      m_Path: <Keyboard>/downArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Deplacement
+      m_Flags: 8
+    - m_Name: left
+      m_Id: 972fbf5f-5518-49aa-92b4-ab9f84e58786
+      m_Path: <Keyboard>/leftArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Deplacement
+      m_Flags: 8
+    - m_Name: right
+      m_Id: 30bd8b5b-b8fd-4adc-bd57-53515c524cde
+      m_Path: <Keyboard>/rightArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Deplacement
+      m_Flags: 8
+    - m_Name: 2D Vector
+      m_Id: b1fb77dc-46b3-4305-b7e7-6c8d9abeacc7
+      m_Path: 2DVector
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Deplacement
+      m_Flags: 4
+    - m_Name: up
+      m_Id: 85b34a7f-4554-4810-8865-e6527b5f524b
+      m_Path: <Keyboard>/w
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Deplacement
+      m_Flags: 8
+    - m_Name: down
+      m_Id: 0d11f2ee-4602-4728-9103-0339aa82c4cf
+      m_Path: <Keyboard>/s
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Deplacement
+      m_Flags: 8
+    - m_Name: left
+      m_Id: a90e1818-486f-462f-990b-1150753042e4
+      m_Path: <Keyboard>/a
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Deplacement
+      m_Flags: 8
+    - m_Name: right
+      m_Id: 29a896e0-fe9a-4df5-a8b4-ce2de21cc537
+      m_Path: <Keyboard>/d
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Deplacement
+      m_Flags: 8
+    m_Flags: 0
+    m_Priority: 0
 --- !u!70 &1615964059
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -19267,8 +19358,8 @@ Transform:
   m_GameObject: {fileID: 1711297013}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.648718, y: -8.202326, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 8.6139, y: -8.202326, z: 0}
+  m_LocalScale: {x: 1.0697, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1689910931}
@@ -20632,8 +20723,8 @@ Transform:
   m_GameObject: {fileID: 1860804261}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.75459766, y: -9.174022, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.6838, y: -9.174022, z: 0}
+  m_LocalScale: {x: 1.3891729, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1689910931}

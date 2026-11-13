@@ -8,8 +8,8 @@ namespace Arielle
     public class PlayerMovement : MonoBehaviour
     {
         
-        [SerializeField] private float vitesse = 4f;
-
+        [SerializeField] private float vitesse = 3f;
+        [SerializeField] private InputAction deplacement;
         private Rigidbody2D rigidb;
         private Vector2 direction;
         
@@ -19,22 +19,24 @@ namespace Arielle
         {
             rigidb = GetComponent<Rigidbody2D>();
 
-
-
         }
 
-       
+        private void OnEnable()
+        {
+            deplacement.Enable();
+        }
+
+        private void OnDisable()
+        {
+            deplacement.Disable();
+        }
+
+
         private void Update()
         {
-            direction = Vector2.zero;
-            var clavier = Keyboard.current;
-            if (clavier == null) return;
+            direction = deplacement.ReadValue<Vector2>().normalized;
+            
 
-
-            if (clavier.wKey.isPressed || clavier.upArrowKey.isPressed) direction.y += 1;
-            if (clavier.sKey.isPressed || clavier.downArrowKey.isPressed) direction.y -= 1;
-            if (clavier.dKey.isPressed || clavier.rightArrowKey.isPressed) direction.x += 1;
-            if (clavier.aKey.isPressed || clavier.leftArrowKey.isPressed) direction.x -= 1;
         }
 
         private void FixedUpdate()
