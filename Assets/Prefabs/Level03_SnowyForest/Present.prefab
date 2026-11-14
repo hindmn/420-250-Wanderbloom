@@ -175,6 +175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd6227a70491b6c4f88e767835a9b46f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Present
+  sparkles: {fileID: 576578292563175697}
 --- !u!1 &7556392359092246249
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,6 +6,7 @@ public class Present : MonoBehaviour
     private Animator animator;
     private Collider2D presentSpace;
     private bool isOpen;
+    [SerializeField] private ParticleSystem sparkles;
 
     private void Awake()
     {
@@ -23,6 +24,13 @@ public class Present : MonoBehaviour
         isOpen = true;
         presentSpace.enabled = false;
         animator.SetTrigger("Open");
+        PlaySparkles();
+    }
+
+    private void PlaySparkles()
+    {
+        sparkles.transform.SetParent(null);
+        sparkles.Play();
     }
 
     public void Disappear()
