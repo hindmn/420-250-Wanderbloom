@@ -11,6 +11,8 @@ public class Present : MonoBehaviour
     [SerializeField] private AudioClip sparklesSound;
     private AudioSource audioSource;
     private SpriteRenderer spriteRenderer;
+    //Évenement qui appartient à la classe Present (parent) et le compteur prend en compte tous les cadeaux.
+    public static event System.Action Collected;
 
     private void Awake()
     {
@@ -32,6 +34,9 @@ public class Present : MonoBehaviour
         animator.SetTrigger("Open");
         PlaySparkles();
         PlaySparklesSound();
+        Collected?.Invoke();
+        //Le ? évite une erreur si le résultat est null et puisque l'appel est après isOpen,
+        //le cadeau ne peut compter qu'une seule fois
     }
 
     private void PlaySparkles()
