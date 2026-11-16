@@ -18331,8 +18331,9 @@ GameObject:
   - component: {fileID: 1871346223}
   - component: {fileID: 1871346225}
   - component: {fileID: 1871346226}
+  - component: {fileID: 1871346227}
   m_Layer: 0
-  m_Name: Basic Charakter Spritesheet_0
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18406,7 +18407,7 @@ Transform:
   m_GameObject: {fileID: 1871346222}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.0981, y: 0.41794953, z: 0}
+  m_LocalPosition: {x: -7, y: 0.16, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18476,6 +18477,69 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0.030095816}
   m_Size: {x: 0.8900852, y: 1.1276171}
   m_Direction: 0
+--- !u!114 &1871346227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871346222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb531dc61ea41354897ae0c76e15b89e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
+  speed: 5
+  MoveAction:
+    m_Name: Move
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 8ffef311-0457-4632-894d-302195de4a74
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 2D Vector
+      m_Id: e8391fe7-92c1-4d42-ae5f-5668fcdd9a82
+      m_Path: 2DVector
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 4
+    - m_Name: up
+      m_Id: f0afd6ee-d73a-4386-a8d3-7ea45d2967ad
+      m_Path: <Keyboard>/w
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    - m_Name: down
+      m_Id: bb7ec56e-f94f-47d6-8f40-227baa1485d5
+      m_Path: <Keyboard>/s
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    - m_Name: left
+      m_Id: 63b986e9-2d1e-4c02-8362-0b2b5bb8e514
+      m_Path: <Keyboard>/a
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    - m_Name: right
+      m_Id: 17fb4c9a-0a86-4116-8acc-e4d31df45ebf
+      m_Path: <Keyboard>/d
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    m_Flags: 0
+    m_Priority: 0
 --- !u!1001 &1930238428
 PrefabInstance:
   m_ObjectHideFlags: 0
