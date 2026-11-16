@@ -68,4 +68,11 @@ public class BatPatrol : MonoBehaviour
 
         spriteRenderer.flipX = player.position.x < transform.position.x;
     }
+
+    void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(transform.position, detectionRadius);
+    }
+
 }
