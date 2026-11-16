@@ -13295,13 +13295,13 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: fd6b444cff1851544a8f63e3f8bdfc1e, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.248
   m_Pitch: 1
   Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 90
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -20449,7 +20449,7 @@ MonoBehaviour:
   damageEffectDuration: 0.2
   invincibilityDuration: 1.5
   damageSound: {fileID: 8300000, guid: 4f2d139fcd7d8b9489992175390e3640, type: 3}
-  damageSoundVolume: 0.5
+  damageSoundVolume: 1
 --- !u!1001 &1930238428
 PrefabInstance:
   m_ObjectHideFlags: 0
