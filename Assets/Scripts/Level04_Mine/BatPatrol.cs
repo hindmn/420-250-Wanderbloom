@@ -5,6 +5,7 @@ public class BatPatrol : MonoBehaviour
 {
     public float speed = 2f;
     public float patrolDistance = 2f;
+    public bool verticalPatrol = false;
     public float detectionRadius = 3f;
     public float chaseSpeed = 3f;
 
@@ -44,22 +45,41 @@ public class BatPatrol : MonoBehaviour
         KeepInsideRoom();
     }
 
+
     void Patrol()
     {
-        float distance = transform.position.x - startPosition.x;
+        float distance;
 
-        float maxDistance = Mathf.Min(patrolDistance, roomHalfWidth);
+        if (verticalPatrol)
+            distance = transform.position.y - startPosition.y;
+        else
+            distance = transform.position.x - startPosition.x;
+
+        float maxDistance;
+
+        if (verticalPatrol)
+            maxDistance = Mathf.Min(patrolDistance, roomHalfHeight);
+        else
+            maxDistance = Mathf.Min(patrolDistance, roomHalfWidth);
 
         if (direction == 1 && distance >= maxDistance)
             direction = -1;
         else if (direction == -1 && distance <= -maxDistance)
             direction = 1;
 
-        transform.Translate(Vector3.right * direction * speed * Time.deltaTime, Space.World);
+        Vector3 movement;
 
-        if (spriteRenderer != null)
+        if (verticalPatrol)
+            movement = Vector3.up;
+        else
+            movement = Vector3.right;
+
+        transform.Translate(movement * direction * speed * Time.deltaTime, Space.World);
+
+        if (spriteRenderer != null && !verticalPatrol)
             spriteRenderer.flipX = direction == -1;
     }
+
 
     void ChasePlayer()
     {
