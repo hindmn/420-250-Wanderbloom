@@ -141,3 +141,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc24ecd8d540dcf49a0224db49659227, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DiamondCollectible
+  diamondParticles: {fileID: 4210793399185793580, guid: 782ef5ac12f4245438423b4c29dc01f5, type: 3}
