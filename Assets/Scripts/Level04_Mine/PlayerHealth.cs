@@ -12,6 +12,10 @@ public class PlayerHealth : MonoBehaviour
     public Sprite emptyHeart;
 
     public float damageEffectDuration = 0.3f;
+    public AudioClip damageSound;
+
+    [Range(0f, 1f)]
+    public float damageSoundVolume = 0.5f;
 
     private int currentHealth;
     private SpriteRenderer spriteRenderer;
@@ -29,6 +33,7 @@ public class PlayerHealth : MonoBehaviour
         UpdateHearts();
     }
 
+
     public void TakeDamage(int damage)
     {
         if (currentHealth <= 0)
@@ -38,6 +43,15 @@ public class PlayerHealth : MonoBehaviour
         currentHealth = Mathf.Max(currentHealth, 0);
 
         UpdateHearts();
+
+        if (damageSound != null)
+        {
+            AudioSource.PlayClipAtPoint(
+                damageSound,
+                transform.position,
+                damageSoundVolume
+            );
+        }
 
         if (spriteRenderer != null)
         {
@@ -52,6 +66,7 @@ public class PlayerHealth : MonoBehaviour
         if (currentHealth == 0)
             Debug.Log("Game Over !");
     }
+
 
     IEnumerator DamageEffect()
     {
