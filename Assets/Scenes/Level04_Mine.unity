@@ -20142,6 +20142,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
   maxHealth: 3
+  hearts:
+  - {fileID: 967002746}
+  - {fileID: 617432430}
+  - {fileID: 943689699}
+  fullHeart: {fileID: 1516347230432879253, guid: d5dabbf3c6c31dc46a2ff74a45c75b47, type: 3}
+  emptyHeart: {fileID: 6934560787232902780, guid: d5dabbf3c6c31dc46a2ff74a45c75b47, type: 3}
 --- !u!1001 &1930238428
 PrefabInstance:
   m_ObjectHideFlags: 0
