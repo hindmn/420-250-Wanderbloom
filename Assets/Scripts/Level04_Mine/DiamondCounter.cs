@@ -5,7 +5,7 @@ using TMPro;
 public class DiamondCounter : MonoBehaviour
 {
     public int diamondsCollected = 0;
-    public int diamondsRequired = 8;
+    public int diamondsRequired = 10;
     public TextMeshProUGUI diamondText;
 
     void Start()
@@ -19,6 +19,11 @@ public class DiamondCounter : MonoBehaviour
         UpdateDisplay();
 
         Debug.Log("Diamants : " + diamondsCollected + "/" + diamondsRequired);
+    }
+
+    public bool HasEnoughDiamonds()
+    {
+        return diamondsCollected >= diamondsRequired;
     }
 
     private void UpdateDisplay()
