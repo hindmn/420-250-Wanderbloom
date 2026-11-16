@@ -7,7 +7,18 @@ public class DiamondCollectible : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Destroy(gameObject);
+            DiamondCounter counter =
+                FindFirstObjectByType<DiamondCounter>();
+
+            if (counter != null)
+            {
+                counter.AddDiamond();
+                Destroy(gameObject);
+            }
+            else
+            {
+                Debug.LogWarning("DiamondCounter introuvable !");
+            }
         }
     }
 }

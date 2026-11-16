@@ -16976,7 +16976,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DiamondCounter
   diamondsCollected: 0
-  diamondsRequired: 8
+  diamondsRequired: 9
 --- !u!4 &1224002179
 Transform:
   m_ObjectHideFlags: 0
