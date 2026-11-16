@@ -12,6 +12,8 @@ public class PlayerHealth : MonoBehaviour
     public Sprite emptyHeart;
 
     public float damageEffectDuration = 0.3f;
+    public float invincibilityDuration = 1.5f;
+    private float nextDamageTime;
     public AudioClip damageSound;
 
     [Range(0f, 1f)]
@@ -34,23 +36,21 @@ public class PlayerHealth : MonoBehaviour
     }
 
 
+
     public void TakeDamage(int damage)
     {
-        if (currentHealth <= 0)
+        if (currentHealth <= 0 || Time.time < nextDamageTime)
             return;
 
         currentHealth -= damage;
         currentHealth = Mathf.Max(currentHealth, 0);
+        nextDamageTime = Time.time + invincibilityDuration;
 
         UpdateHearts();
 
         if (damageSound != null)
         {
-            AudioSource.PlayClipAtPoint(
-                damageSound,
-                transform.position,
-                damageSoundVolume
-            );
+            AudioSource.PlayClipAtPoint(damageSound, transform.position, damageSoundVolume);
         }
 
         if (spriteRenderer != null)
@@ -66,6 +66,7 @@ public class PlayerHealth : MonoBehaviour
         if (currentHealth == 0)
             Debug.Log("Game Over !");
     }
+
 
 
     IEnumerator DamageEffect()
