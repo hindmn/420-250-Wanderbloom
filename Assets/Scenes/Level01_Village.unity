@@ -3819,7 +3819,7 @@ GameObject:
   m_Component:
   - component: {fileID: 338616230}
   - component: {fileID: 338616229}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: FruitSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
