@@ -12106,13 +12106,21 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5644235638416873704, guid: 5d127c7981a87ab47be5155512d9dddf, type: 3}
+      propertyPath: m_Size.y
+      value: 0.98716134
+      objectReference: {fileID: 0}
+    - target: {fileID: 5644235638416873704, guid: 5d127c7981a87ab47be5155512d9dddf, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.006419331
+      objectReference: {fileID: 0}
     - target: {fileID: 6178351275073618876, guid: 5d127c7981a87ab47be5155512d9dddf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.43511
+      value: -5.49
       objectReference: {fileID: 0}
     - target: {fileID: 6178351275073618876, guid: 5d127c7981a87ab47be5155512d9dddf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.95665
+      value: -0.89
       objectReference: {fileID: 0}
     - target: {fileID: 6178351275073618876, guid: 5d127c7981a87ab47be5155512d9dddf, type: 3}
       propertyPath: m_LocalPosition.z
