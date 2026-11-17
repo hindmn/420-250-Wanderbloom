@@ -45,10 +45,16 @@ namespace Arielle
 
         private void OnCollisionEnter2D(Collision2D collision)
         {
-            if (collision.gameObject.CompareTag("Player"))
-            {
-                finPause = Time.time + pause;
-            }
+            if (collision.gameObject.CompareTag("Player")) return;
+
+            if (Time.time < finPause) return;
+
+            CompteurFruit compteur = collision.gameObject.GetComponent<CompteurFruit>();
+            if (compteur != null)
+                compteur.RetirerFruit();
+
+            finPause = Time.time + pause;
+            
         }
     }
 }
