@@ -8,7 +8,11 @@ namespace Arielle
         {
             if (other.CompareTag("Player"))
             {
-                Debug.Log("Fruit ramassé");
+                CompteurFruit compteur = other.GetComponent<CompteurFruit>();
+                if (compteur != null)
+                    compteur.AjouterFruit();
+
+                //Debug.Log("Fruit ramassé");
                 Destroy(gameObject);
             }
         }
