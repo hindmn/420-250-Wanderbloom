@@ -32,7 +32,12 @@ namespace Arielle
                     Random.Range(zoneMin.y, zoneMax.y)
                 );
 
-                if(Physics2D.OverlapCircleAll(position, rayonLibre) == null)
+                Collider2D obstacle = Physics2D.OverlapCircle(position, rayonLibre);
+                if (obstacle != null)
+                {
+                    Debug.Log("Place occupée par : " + obstacle.name);
+                }
+                else
                 {
                     GameObject prefab = prefabsFruits[Random.Range(0, prefabsFruits.Length)];
                     Instantiate(prefab, position, Quaternion.identity, transform);
