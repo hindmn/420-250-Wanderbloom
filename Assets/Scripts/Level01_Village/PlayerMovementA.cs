@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 namespace Arielle
 {
     [RequireComponent(typeof(Rigidbody2D))]
-    public class PlayerMovement : MonoBehaviour
+    public class PlayerMovementA : MonoBehaviour
     {
         [SerializeField] private Vector2 limiteMin = new Vector2(-10f, -5f);
         [SerializeField] private Vector2 limiteMax = new Vector2(10f, 5f);
