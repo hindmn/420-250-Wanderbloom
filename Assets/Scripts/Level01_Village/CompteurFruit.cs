@@ -34,7 +34,7 @@ namespace Arielle
         private void MettreAJourTexte()
         {
             if (texte != null)
-                texte.text = "Fruits: " + regles.Nombre + " / " + objectif;
+                texte.text = regles.Nombre + " / " + objectif;
         }
     }
 }

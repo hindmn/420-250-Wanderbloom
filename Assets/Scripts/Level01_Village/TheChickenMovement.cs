@@ -45,16 +45,20 @@ namespace Arielle
 
         private void OnCollisionEnter2D(Collision2D collision)
         {
-            if (collision.gameObject.CompareTag("Player")) return;
+            Debug.Log("La poule touche : " + collision.gameObject.name);
 
+            // Cherche le compteur sur l'objet touché ou sur son parent
+            CompteurFruit compteur = collision.gameObject.GetComponentInParent<CompteurFruit>();
+            if (compteur == null) return;
+
+            // Déjà en pause : elle ne peut pas voler de nouveau
             if (Time.time < finPause) return;
 
-            CompteurFruit compteur = collision.gameObject.GetComponent<CompteurFruit>();
-            if (compteur != null)
-                compteur.RetirerFruit();
+            compteur.RetirerFruit();
+            Debug.Log("Fruit volé ! Il reste : " + compteur.Nombre);
 
             finPause = Time.time + pause;
-            
+
         }
     }
 }
