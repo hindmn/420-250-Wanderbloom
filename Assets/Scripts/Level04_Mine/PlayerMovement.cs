@@ -10,7 +10,9 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 moveInput;
     private Rigidbody2D rb;
     private Animator animator;
+
     private string currentAnimation = "";
+    private string lastDirection = "Down";
 
     void Start()
     {
@@ -22,32 +24,26 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        moveInput = MoveAction.ReadValue<Vector2>();
-        moveInput = moveInput.normalized;
-
-        if (moveInput == Vector2.zero)
-        {
-            animator.speed = 0f;
-            return;
-        }
-
-        animator.speed = 1f;
+        moveInput = MoveAction.ReadValue<Vector2>().normalized;
 
         string newAnimation;
 
-        if (Mathf.Abs(moveInput.x) > Mathf.Abs(moveInput.y))
+        if (moveInput == Vector2.zero)
         {
-            if (moveInput.x > 0)
-                newAnimation = "PlayerWalkRight";
-            else
-                newAnimation = "PlayerWalkLeft";
+            newAnimation = "PlayerIdle" + lastDirection;
         }
         else
         {
-            if (moveInput.y > 0)
-                newAnimation = "PlayerWalkUp";
+            if (Mathf.Abs(moveInput.x) > Mathf.Abs(moveInput.y))
+            {
+                lastDirection = moveInput.x > 0 ? "Right" : "Left";
+            }
             else
-                newAnimation = "PlayerWalkDown";
+            {
+                lastDirection = moveInput.y > 0 ? "Up" : "Down";
+            }
+
+            newAnimation = "PlayerWalk" + lastDirection;
         }
 
         if (newAnimation != currentAnimation)
