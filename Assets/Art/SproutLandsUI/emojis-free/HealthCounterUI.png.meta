@@ -1,0 +1,2587 @@
+fileFormatVersion: 2
+guid: fb3723d31b8f3854c8a47a57e6db90a1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -481164475082083094
+    second: HealthCounterUI_0
+  - first:
+      213: 4374156099385267131
+    second: HealthCounterUI_1
+  - first:
+      213: -2366556535248667466
+    second: HealthCounterUI_2
+  - first:
+      213: -2267496743599309954
+    second: HealthCounterUI_3
+  - first:
+      213: -6810876861831655258
+    second: HealthCounterUI_4
+  - first:
+      213: -6292564267812245286
+    second: HealthCounterUI_5
+  - first:
+      213: 5981359885357013422
+    second: HealthCounterUI_6
+  - first:
+      213: 1965490599556626416
+    second: HealthCounterUI_7
+  - first:
+      213: 5207393810645021705
+    second: HealthCounterUI_8
+  - first:
+      213: 3679673528389108072
+    second: HealthCounterUI_9
+  - first:
+      213: 919463117753914763
+    second: HealthCounterUI_10
+  - first:
+      213: -4528070904797183242
+    second: HealthCounterUI_11
+  - first:
+      213: 3041987153653675914
+    second: HealthCounterUI_12
+  - first:
+      213: 4788624543783127025
+    second: HealthCounterUI_13
+  - first:
+      213: 6882820212406260062
+    second: HealthCounterUI_14
+  - first:
+      213: 6744136983344981089
+    second: HealthCounterUI_15
+  - first:
+      213: 3140378325106197912
+    second: HealthCounterUI_16
+  - first:
+      213: -3769763373246345789
+    second: HealthCounterUI_17
+  - first:
+      213: 5999371042543459929
+    second: HealthCounterUI_18
+  - first:
+      213: 6573345343591627694
+    second: HealthCounterUI_19
+  - first:
+      213: 4551621390466054177
+    second: HealthCounterUI_20
+  - first:
+      213: -7057365246830862523
+    second: HealthCounterUI_21
+  - first:
+      213: -1099454890229482576
+    second: HealthCounterUI_22
+  - first:
+      213: 3846050150812222666
+    second: HealthCounterUI_23
+  - first:
+      213: -8355476325481694386
+    second: HealthCounterUI_24
+  - first:
+      213: -7229921538713787878
+    second: HealthCounterUI_25
+  - first:
+      213: 8339899941962318256
+    second: HealthCounterUI_26
+  - first:
+      213: 388926772601329598
+    second: HealthCounterUI_27
+  - first:
+      213: -7424546356616381865
+    second: HealthCounterUI_28
+  - first:
+      213: -8681621019890521208
+    second: HealthCounterUI_29
+  - first:
+      213: 1415343326853924728
+    second: HealthCounterUI_30
+  - first:
+      213: 6670417900347005593
+    second: HealthCounterUI_31
+  - first:
+      213: 1831041904249217273
+    second: HealthCounterUI_32
+  - first:
+      213: -3065767361487651926
+    second: HealthCounterUI_33
+  - first:
+      213: -5272287381384023818
+    second: HealthCounterUI_34
+  - first:
+      213: -3568788226043886483
+    second: HealthCounterUI_35
+  - first:
+      213: 173575740128927945
+    second: HealthCounterUI_36
+  - first:
+      213: 5516858579047791801
+    second: HealthCounterUI_37
+  - first:
+      213: 6985588486077505040
+    second: HealthCounterUI_38
+  - first:
+      213: -5297518737636134060
+    second: HealthCounterUI_39
+  - first:
+      213: -1988716034659262478
+    second: HealthCounterUI_40
+  - first:
+      213: 2805259736080889762
+    second: HealthCounterUI_41
+  - first:
+      213: -967330923699759702
+    second: HealthCounterUI_42
+  - first:
+      213: -7458485146722035445
+    second: HealthCounterUI_43
+  - first:
+      213: 5060031680981433200
+    second: HealthCounterUI_44
+  - first:
+      213: -3249694877393555978
+    second: HealthCounterUI_45
+  - first:
+      213: 5696066680131459368
+    second: HealthCounterUI_46
+  - first:
+      213: 7518074718085150579
+    second: HealthCounterUI_47
+  - first:
+      213: -5076950072930408796
+    second: HealthCounterUI_48
+  - first:
+      213: -4555384107882643792
+    second: HealthCounterUI_49
+  - first:
+      213: 1626254568721752231
+    second: HealthCounterUI_50
+  - first:
+      213: 3637428123525490717
+    second: HealthCounterUI_51
+  - first:
+      213: -3408385343071560826
+    second: HealthCounterUI_52
+  - first:
+      213: 8778007587633411273
+    second: HealthCounterUI_53
+  - first:
+      213: 6070736391308650574
+    second: HealthCounterUI_54
+  - first:
+      213: 8205868821276525096
+    second: HealthCounterUI_55
+  - first:
+      213: -5818058430190107315
+    second: HealthCounterUI_56
+  - first:
+      213: -1276460113091743536
+    second: HealthCounterUI_57
+  - first:
+      213: 5709729155206509496
+    second: HealthCounterUI_58
+  - first:
+      213: -2722864711348724490
+    second: HealthCounterUI_59
+  - first:
+      213: -429432764437879722
+    second: HealthCounterUI_60
+  - first:
+      213: -7335686276117654728
+    second: HealthCounterUI_61
+  - first:
+      213: 3668534339901696216
+    second: HealthCounterUI_62
+  - first:
+      213: 1004258638714207012
+    second: HealthCounterUI_63
+  - first:
+      213: -6121157428662341406
+    second: HealthCounterUI_64
+  - first:
+      213: 3793420232071506741
+    second: HealthCounterUI_65
+  - first:
+      213: -6445613127154795997
+    second: HealthCounterUI_66
+  - first:
+      213: -3914535745467453668
+    second: HealthCounterUI_67
+  - first:
+      213: 183823337140212658
+    second: HealthCounterUI_68
+  - first:
+      213: -5475750236796813059
+    second: HealthCounterUI_69
+  - first:
+      213: -4443063010447029988
+    second: HealthCounterUI_70
+  - first:
+      213: 8391797882286823559
+    second: HealthCounterUI_71
+  - first:
+      213: 7730403740536846496
+    second: HealthCounterUI_72
+  - first:
+      213: -5988165249991797448
+    second: HealthCounterUI_73
+  - first:
+      213: 6349241868185590006
+    second: HealthCounterUI_74
+  - first:
+      213: -7035863270852577642
+    second: HealthCounterUI_75
+  - first:
+      213: 7567108545854718236
+    second: HealthCounterUI_76
+  - first:
+      213: 8264467659684633262
+    second: HealthCounterUI_77
+  - first:
+      213: -4993742547663623605
+    second: HealthCounterUI_78
+  - first:
+      213: -5913531070285378694
+    second: HealthCounterUI_79
+  - first:
+      213: -4011354238582946945
+    second: HealthCounterUI_80
+  - first:
+      213: -2625681985298247841
+    second: HealthCounterUI_81
+  - first:
+      213: -37793238482219631
+    second: HealthCounterUI_82
+  - first:
+      213: 4903393677029263359
+    second: HealthCounterUI_83
+  - first:
+      213: 8437795407034682413
+    second: HealthCounterUI_84
+  - first:
+      213: -968252605537200561
+    second: HealthCounterUI_85
+  - first:
+      213: 1608368050048335947
+    second: HealthCounterUI_86
+  - first:
+      213: -3058029703662529405
+    second: HealthCounterUI_87
+  - first:
+      213: -5179017019074588228
+    second: HealthCounterUI_88
+  - first:
+      213: 5073138632504672929
+    second: HealthCounterUI_89
+  - first:
+      213: -2730004742236486799
+    second: HealthCounterUI_90
+  - first:
+      213: -2085484949094102929
+    second: HealthCounterUI_91
+  - first:
+      213: -2388514450467528531
+    second: HealthCounterUI_92
+  - first:
+      213: 1247545515582063622
+    second: HealthCounterUI_93
+  - first:
+      213: -7423482478713123132
+    second: HealthCounterUI_94
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HealthCounterUI_0
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 683
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae4f130957f8259f0800000000000000
+      internalID: -481164475082083094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_1
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 673
+        width: 74
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb397ff0ccf14bc30800000000000000
+      internalID: 4374156099385267131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_2
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 661
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bcbf97ae5d482fd0800000000000000
+      internalID: -2366556535248667466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_3
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 683
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b7864b9bb3880e0800000000000000
+      internalID: -2267496743599309954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_4
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 676
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a0d8996497ea71a0800000000000000
+      internalID: -6810876861831655258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_5
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 665
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad03cba43225ca8a0800000000000000
+      internalID: -6292564267812245286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_6
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 671
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea9d978002f020350800000000000000
+      internalID: 5981359885357013422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_7
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 679
+        width: 38
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f731f36943d64b10800000000000000
+      internalID: 1965490599556626416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_8
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 635
+        width: 73
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9047011b411644840800000000000000
+      internalID: 5207393810645021705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_9
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 656
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8618a0d0493d01330800000000000000
+      internalID: 3679673528389108072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_10
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 624
+        width: 90
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b859bc585d692cc00800000000000000
+      internalID: 919463117753914763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2167
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f248c9b08f0921c0800000000000000
+      internalID: -4528070904797183242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_12
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 661
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8734d8f23f473a20800000000000000
+      internalID: 3041987153653675914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_13
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 626
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f709eeb6ac947240800000000000000
+      internalID: 4788624543783127025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_14
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 665
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e519a553480b48f50800000000000000
+      internalID: 6882820212406260062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_15
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 665
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1642ad8badcf79d50800000000000000
+      internalID: 6744136983344981089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_16
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 651
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8958a40c27dd49b20800000000000000
+      internalID: 3140378325106197912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_17
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 661
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd8f526f2c1fabc0800000000000000
+      internalID: -3769763373246345789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_18
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 651
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95e519a5d2c024350800000000000000
+      internalID: 5999371042543459929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_19
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 626
+        width: 79
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eab3fbe43c6393b50800000000000000
+      internalID: 6573345343591627694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_20
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 657
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1287cc20a8b9a2f30800000000000000
+      internalID: 4551621390466054177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_21
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 658
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54f957413b33f0e90800000000000000
+      internalID: -7057365246830862523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_22
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 657
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb3e4d3a93fdb0f0800000000000000
+      internalID: -1099454890229482576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_23
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 645
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac400832c3aef5530800000000000000
+      internalID: 3846050150812222666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_24
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 659
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4b3a7a1d826b0c80800000000000000
+      internalID: -8355476325481694386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_25
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 654
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a12e4039aa82aab90800000000000000
+      internalID: -7229921538713787878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_26
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 628
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b107fe7fc64db370800000000000000
+      internalID: 8339899941962318256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_27
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 657
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb79a8cc6deb56500800000000000000
+      internalID: 388926772601329598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_28
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 651
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ab573fc66b6f890800000000000000
+      internalID: -7424546356616381865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_29
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 659
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88b6cdafdafa48780800000000000000
+      internalID: -8681621019890521208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_30
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 644
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8770958c14f44a310800000000000000
+      internalID: 1415343326853924728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_31
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 626
+        width: 65
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a179d2db5129c50800000000000000
+      internalID: 6670417900347005593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_32
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 649
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f021af19ea296910800000000000000
+      internalID: 1831041904249217273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_33
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 642
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aabba8ee3d43475d0800000000000000
+      internalID: -3065767361487651926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_34
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 659
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f0b4d67f8215d6b0800000000000000
+      internalID: -5272287381384023818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_35
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 638
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d64ce04440e197ec0800000000000000
+      internalID: -3568788226043886483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_36
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 657
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c0a20c473aa86200800000000000000
+      internalID: 173575740128927945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_37
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 630
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bcb538e5a1df8c40800000000000000
+      internalID: 5516858579047791801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_38
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 637
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e55b387bbc1f060800000000000000
+      internalID: 6985588486077505040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_39
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 650
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 453f83c86ce6b76b0800000000000000
+      internalID: -5297518737636134060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_40
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 642
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ffd20b9d49a664e0800000000000000
+      internalID: -1988716034659262478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_41
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 643
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a7bec7fdd84ee620800000000000000
+      internalID: 2805259736080889762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_42
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 621
+        width: 47
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa510a866a95392f0800000000000000
+      internalID: -967330923699759702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_43
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 634
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b091b1b96432e7890800000000000000
+      internalID: -7458485146722035445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_44
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 647
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07bfe113108d83640800000000000000
+      internalID: 5060031680981433200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_45
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 642
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fdec840ab3c6e2d0800000000000000
+      internalID: -3249694877393555978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_46
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 640
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8299c2e677e7c0f40800000000000000
+      internalID: 5696066680131459368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_47
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 642
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3777f46af11955860800000000000000
+      internalID: 7518074718085150579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_48
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 644
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a6e698becc0b89b0800000000000000
+      internalID: -5076950072930408796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_49
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 644
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bef1321a4608c0c0800000000000000
+      internalID: -4555384107882643792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_50
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 642
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a0240bf9ed919610800000000000000
+      internalID: 1626254568721752231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_51
+      rect:
+        serializedVersion: 2
+        x: 2089
+        y: 618
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18a0ce3b9dba7230800000000000000
+      internalID: 3637428123525490717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_52
+      rect:
+        serializedVersion: 2
+        x: 2138
+        y: 578
+        width: 21
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68b5290c69bf2b0d0800000000000000
+      internalID: -3408385343071560826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_53
+      rect:
+        serializedVersion: 2
+        x: 2081
+        y: 569
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c4b290a46fb1d970800000000000000
+      internalID: 8778007587633411273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_54
+      rect:
+        serializedVersion: 2
+        x: 2108
+        y: 586
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e482df075969f3450800000000000000
+      internalID: 6070736391308650574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_55
+      rect:
+        serializedVersion: 2
+        x: 2122
+        y: 578
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82204a5673a11e170800000000000000
+      internalID: 8205868821276525096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_56
+      rect:
+        serializedVersion: 2
+        x: 2144
+        y: 578
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d454d02eeaa124fa0800000000000000
+      internalID: -5818058430190107315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_57
+      rect:
+        serializedVersion: 2
+        x: 2075
+        y: 546
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d036354a4a194ee0800000000000000
+      internalID: -1276460113091743536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_58
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 55
+        width: 45
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b376cb4a680d3f40800000000000000
+      internalID: 5709729155206509496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_59
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 112
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fcdc9ca8f0763ad0800000000000000
+      internalID: -2722864711348724490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_60
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 101
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65424cc0d295a0af0800000000000000
+      internalID: -429432764437879722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_61
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 114
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8339c40b238623a90800000000000000
+      internalID: -7335686276117654728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_62
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 111
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d8a920ab8049e230800000000000000
+      internalID: 3668534339901696216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_63
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 81
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b7d2f39e7dfed00800000000000000
+      internalID: 1004258638714207012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_64
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 81
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e0765affb74d0ba0800000000000000
+      internalID: -6121157428662341406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_65
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 77
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53be6684a9fe4a430800000000000000
+      internalID: 3793420232071506741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_66
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 65
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32af75cd2059c86a0800000000000000
+      internalID: -6445613127154795997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_67
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 63
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1fe7d6ca76cca9c0800000000000000
+      internalID: -3914535745467453668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_68
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 79
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b35ba7e9521d8200800000000000000
+      internalID: 183823337140212658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_69
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 77
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df007f0eb2a3204b0800000000000000
+      internalID: -5475750236796813059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_70
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 85
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1980ab7bb11752c0800000000000000
+      internalID: -4443063010447029988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_71
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 93
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 788d49856b7a57470800000000000000
+      internalID: 8391797882286823559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_72
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 79
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a8bc0d9e39e74b60800000000000000
+      internalID: 7730403740536846496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_73
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 71
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83596e98e63c5eca0800000000000000
+      internalID: -5988165249991797448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_74
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 82
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f85d32e6d90d1850800000000000000
+      internalID: 6349241868185590006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_75
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 61
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6963d9cf1a79b5e90800000000000000
+      internalID: -7035863270852577642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_76
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 81
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c114e745125c30960800000000000000
+      internalID: 7567108545854718236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_77
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 78
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaad439ac8941b270800000000000000
+      internalID: 8264467659684633262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_78
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 79
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4a61c26c99a2bab0800000000000000
+      internalID: -4993742547663623605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_79
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 81
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7b8763a2daeeeda0800000000000000
+      internalID: -5913531070285378694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_80
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 69
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f738105b29ec458c0800000000000000
+      internalID: -4011354238582946945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_81
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 67
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5fc7255524bf8bd0800000000000000
+      internalID: -2625681985298247841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_82
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 65
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19d0b55ff3bb97ff0800000000000000
+      internalID: -37793238482219631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_83
+      rect:
+        serializedVersion: 2
+        x: 2021
+        y: 63
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff7c939e19a5c0440800000000000000
+      internalID: 4903393677029263359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_84
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 29
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2c89b3a732191570800000000000000
+      internalID: 8437795407034682413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_85
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 27
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f46db12a2631092f0800000000000000
+      internalID: -968252605537200561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_86
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 19
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4008335832125610800000000000000
+      internalID: 1608368050048335947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_87
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 47
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3841a98cf22bf85d0800000000000000
+      internalID: -3058029703662529405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_88
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb15b54f57f6028b0800000000000000
+      internalID: -5179017019074588228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_89
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 19
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a280c625b8676640800000000000000
+      internalID: 5073138632504672929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_90
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 27
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 173ccdfa6231d1ad0800000000000000
+      internalID: -2730004742236486799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_91
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 31
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6882d8fc7ede03e0800000000000000
+      internalID: -2085484949094102929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_92
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 15
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da0eefe13ca4aded0800000000000000
+      internalID: -2388514450467528531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_93
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 17
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6048661690c205110800000000000000
+      internalID: 1247545515582063622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthCounterUI_94
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 17
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cec7f3540e7af890800000000000000
+      internalID: -7423482478713123132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      HealthCounterUI_0: -481164475082083094
+      HealthCounterUI_1: 4374156099385267131
+      HealthCounterUI_10: 919463117753914763
+      HealthCounterUI_11: -4528070904797183242
+      HealthCounterUI_12: 3041987153653675914
+      HealthCounterUI_13: 4788624543783127025
+      HealthCounterUI_14: 6882820212406260062
+      HealthCounterUI_15: 6744136983344981089
+      HealthCounterUI_16: 3140378325106197912
+      HealthCounterUI_17: -3769763373246345789
+      HealthCounterUI_18: 5999371042543459929
+      HealthCounterUI_19: 6573345343591627694
+      HealthCounterUI_2: -2366556535248667466
+      HealthCounterUI_20: 4551621390466054177
+      HealthCounterUI_21: -7057365246830862523
+      HealthCounterUI_22: -1099454890229482576
+      HealthCounterUI_23: 3846050150812222666
+      HealthCounterUI_24: -8355476325481694386
+      HealthCounterUI_25: -7229921538713787878
+      HealthCounterUI_26: 8339899941962318256
+      HealthCounterUI_27: 388926772601329598
+      HealthCounterUI_28: -7424546356616381865
+      HealthCounterUI_29: -8681621019890521208
+      HealthCounterUI_3: -2267496743599309954
+      HealthCounterUI_30: 1415343326853924728
+      HealthCounterUI_31: 6670417900347005593
+      HealthCounterUI_32: 1831041904249217273
+      HealthCounterUI_33: -3065767361487651926
+      HealthCounterUI_34: -5272287381384023818
+      HealthCounterUI_35: -3568788226043886483
+      HealthCounterUI_36: 173575740128927945
+      HealthCounterUI_37: 5516858579047791801
+      HealthCounterUI_38: 6985588486077505040
+      HealthCounterUI_39: -5297518737636134060
+      HealthCounterUI_4: -6810876861831655258
+      HealthCounterUI_40: -1988716034659262478
+      HealthCounterUI_41: 2805259736080889762
+      HealthCounterUI_42: -967330923699759702
+      HealthCounterUI_43: -7458485146722035445
+      HealthCounterUI_44: 5060031680981433200
+      HealthCounterUI_45: -3249694877393555978
+      HealthCounterUI_46: 5696066680131459368
+      HealthCounterUI_47: 7518074718085150579
+      HealthCounterUI_48: -5076950072930408796
+      HealthCounterUI_49: -4555384107882643792
+      HealthCounterUI_5: -6292564267812245286
+      HealthCounterUI_50: 1626254568721752231
+      HealthCounterUI_51: 3637428123525490717
+      HealthCounterUI_52: -3408385343071560826
+      HealthCounterUI_53: 8778007587633411273
+      HealthCounterUI_54: 6070736391308650574
+      HealthCounterUI_55: 8205868821276525096
+      HealthCounterUI_56: -5818058430190107315
+      HealthCounterUI_57: -1276460113091743536
+      HealthCounterUI_58: 5709729155206509496
+      HealthCounterUI_59: -2722864711348724490
+      HealthCounterUI_6: 5981359885357013422
+      HealthCounterUI_60: -429432764437879722
+      HealthCounterUI_61: -7335686276117654728
+      HealthCounterUI_62: 3668534339901696216
+      HealthCounterUI_63: 1004258638714207012
+      HealthCounterUI_64: -6121157428662341406
+      HealthCounterUI_65: 3793420232071506741
+      HealthCounterUI_66: -6445613127154795997
+      HealthCounterUI_67: -3914535745467453668
+      HealthCounterUI_68: 183823337140212658
+      HealthCounterUI_69: -5475750236796813059
+      HealthCounterUI_7: 1965490599556626416
+      HealthCounterUI_70: -4443063010447029988
+      HealthCounterUI_71: 8391797882286823559
+      HealthCounterUI_72: 7730403740536846496
+      HealthCounterUI_73: -5988165249991797448
+      HealthCounterUI_74: 6349241868185590006
+      HealthCounterUI_75: -7035863270852577642
+      HealthCounterUI_76: 7567108545854718236
+      HealthCounterUI_77: 8264467659684633262
+      HealthCounterUI_78: -4993742547663623605
+      HealthCounterUI_79: -5913531070285378694
+      HealthCounterUI_8: 5207393810645021705
+      HealthCounterUI_80: -4011354238582946945
+      HealthCounterUI_81: -2625681985298247841
+      HealthCounterUI_82: -37793238482219631
+      HealthCounterUI_83: 4903393677029263359
+      HealthCounterUI_84: 8437795407034682413
+      HealthCounterUI_85: -968252605537200561
+      HealthCounterUI_86: 1608368050048335947
+      HealthCounterUI_87: -3058029703662529405
+      HealthCounterUI_88: -5179017019074588228
+      HealthCounterUI_89: 5073138632504672929
+      HealthCounterUI_9: 3679673528389108072
+      HealthCounterUI_90: -2730004742236486799
+      HealthCounterUI_91: -2085484949094102929
+      HealthCounterUI_92: -2388514450467528531
+      HealthCounterUI_93: 1247545515582063622
+      HealthCounterUI_94: -7423482478713123132
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
