@@ -5,6 +5,7 @@ public class CounterPresent : MonoBehaviour
 {
     [SerializeField] private TMP_Text counterText;
     private int count;
+    [SerializeField] private int total = 15;
 
     private void OnEnable()
     {
@@ -23,9 +24,10 @@ public class CounterPresent : MonoBehaviour
     }
     private void TextUpdate()
     {
-        counterText.text = "Cadeaux : " + count;
+        counterText.text = count + " / " + total;
     }
     public int Count => count;
+    public int TotalPresents => total;
     void Start()
     {
         TextUpdate();
