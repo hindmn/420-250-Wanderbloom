@@ -9,7 +9,7 @@ namespace Arielle
             private set;
         }
 
-        public bool estTermine => TempsRestant <= 0f;
+        public bool EstTermine => TempsRestant <= 0f;
 
         public CompteurTempsRegle(float duree)
         {
