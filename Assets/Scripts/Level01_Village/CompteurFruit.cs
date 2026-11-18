@@ -11,6 +11,8 @@ namespace Arielle
         private CompteurFruitRegleJeu regles = new CompteurFruitRegleJeu();
         public int Nombre => regles.Nombre;
 
+        public int Objectif => objectif;
+
         void Start()
         {
             MettreAJourTexte();
