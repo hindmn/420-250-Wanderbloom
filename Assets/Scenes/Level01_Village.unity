@@ -9008,6 +9008,7 @@ GameObject:
   - component: {fileID: 804660816}
   - component: {fileID: 804660815}
   - component: {fileID: 804660817}
+  - component: {fileID: 804660818}
   m_Layer: 5
   m_Name: TexteTemps
   m_TagString: Untagged
@@ -9148,6 +9149,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Arielle.ChronoCompteurTemps
   duree: 60
   texte: {fileID: 804660815}
+  secondesAlerte: 10
+--- !u!114 &804660818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 804660813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 428e4a8068d12d142a3b3731ab574eef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Arielle.NiveauA
+  chrono: {fileID: 804660817}
+  compteur: {fileID: 1077245892}
 --- !u!1 &816033704
 GameObject:
   m_ObjectHideFlags: 0
