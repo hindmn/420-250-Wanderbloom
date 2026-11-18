@@ -7,13 +7,16 @@ namespace Arielle
     {
         [SerializeField] private float duree = 60f;
         [SerializeField] private TMP_Text texte;
+        [SerializeField] private float secondesAlerte = 10f;
 
+        private Color couleurNorm;
         private CompteurTempsRegle regles;
 
         public bool EstTermine => regles.EstTermine;
 
         private void Start()
         {
+            couleurNorm = texte.color;
             regles = new CompteurTempsRegle(duree);
             MettreAJourTexte();
         }
@@ -29,6 +32,7 @@ namespace Arielle
         {
             int secondes = Mathf.CeilToInt(regles.TempsRestant);
             texte.text = "0" + (secondes / 60) + " : " + (secondes % 60).ToString("00");
+            texte.color = regles.TempsRestant <= secondesAlerte ? Color.red : couleurNorm;
         }
     }
 }
