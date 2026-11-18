@@ -18,6 +18,7 @@ namespace Arielle
 
         private Rigidbody2D rb;
         private SpriteRenderer sr;
+        private Animator animator;
         private float finPause = 0f;
 
 
@@ -25,6 +26,7 @@ namespace Arielle
         {
             rb = GetComponent<Rigidbody2D>();
             sr = GetComponent<SpriteRenderer>();
+            animator = GetComponent<Animator>();
         }
 
 
@@ -33,14 +35,16 @@ namespace Arielle
             if(Time.time < finPause)
             {
                 rb.linearVelocity = Vector2.zero;
+                animator.SetBool("EnMarche", false);
+                return;
             }
 
             Vector2 direction = ((Vector2)player.position - rb.position).normalized;
             rb.linearVelocity = direction * vitesse;
             rb.position = Limites.Limiter(rb.position, limiteMin, limiteMax);
+            animator.SetBool("EnMarche", true);
 
             if (direction.x != 0)
-            
                 sr.flipX = direction.x < 0;
             
 
