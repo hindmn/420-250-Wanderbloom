@@ -193,9 +193,9 @@ TextureImporter:
         x: 7
         y: 97
         width: 35
-        height: 46
+        height: 16
       alignment: 9
-      pivot: {x: 0.22857143, y: 0.17391305}
+      pivot: {x: 0.22857143, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -237,9 +237,9 @@ TextureImporter:
         x: 103
         y: 97
         width: 35
-        height: 46
+        height: 16
       alignment: 9
-      pivot: {x: 0.22857143, y: 0.17391305}
+      pivot: {x: 0.22857143, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -281,9 +281,9 @@ TextureImporter:
         x: 197
         y: 81
         width: 39
-        height: 53
+        height: 16
       alignment: 9
-      pivot: {x: 0.20512821, y: 0.1509434}
+      pivot: {x: 0.20512821, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -567,9 +567,9 @@ TextureImporter:
         x: 72
         y: 33
         width: 17
-        height: 28
+        height: 16
       alignment: 9
-      pivot: {x: 0.47058824, y: 0.2857143}
+      pivot: {x: 0.47058824, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -765,9 +765,9 @@ TextureImporter:
         x: 3
         y: 1
         width: 18
-        height: 28
+        height: 16
       alignment: 9
-      pivot: {x: 0.44444445, y: 0.2857143}
+      pivot: {x: 0.44444444, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -875,8 +875,8 @@ TextureImporter:
         x: 112
         y: 48
         width: 16
-        height: 28
-      alignment: 0
+        height: 16
+      alignment: 9
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -897,8 +897,8 @@ TextureImporter:
         x: 128
         y: 48
         width: 16
-        height: 32
-      alignment: 0
+        height: 16
+      alignment: 9
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -956,6 +956,160 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: sapin_vert_haut
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 113
+        width: 35
+        height: 30
+      alignment: 9
+      pivot: {x: 0.22857143, y: -0.26666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0f6fdb3f5046b3b987c9a86048a95a
+      internalID: -2163066575966756029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sapin_neige_haut
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 113
+        width: 35
+        height: 30
+      alignment: 9
+      pivot: {x: 0.22857143, y: -0.26666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7709e43fdcd843838ab139a108f24d81
+      internalID: -1847907693603351397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sapin_noel_haut
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 97
+        width: 39
+        height: 37
+      alignment: 9
+      pivot: {x: 0.20512821, y: -0.21621622}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3ee73ea06d42449d7528625f24316d
+      internalID: -2673491799337825545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_snowman1_haut
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: -0.66666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb1191f097548538d99c63dc84e7b75
+      internalID: -2533538877152308467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_snowman2_haut
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: -0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5269e362681e4bf588f25b1ee955a14e
+      internalID: -6580969860828161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: canne1_haut
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 49
+        width: 17
+        height: 12
+      alignment: 9
+      pivot: {x: 0.47058824, y: -0.66666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c9ac4d5d794d6098eee2ab9c4271d0
+      internalID: -2392669687123037260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: canne2_haut
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 17
+        width: 18
+        height: 12
+      alignment: 9
+      pivot: {x: 0.44444444, y: -0.66666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350098b8852c4ad0918dab9ea73deb37
+      internalID: 694452460732348723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -972,6 +1126,13 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":8.0,"y":8.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":1,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
+      sapin_vert_haut: -2163066575966756029
+      sapin_neige_haut: -1847907693603351397
+      sapin_noel_haut: -2673491799337825545
+      big_snowman1_haut: -2533538877152308467
+      big_snowman2_haut: -6580969860828161
+      canne1_haut: -2392669687123037260
+      canne2_haut: 694452460732348723
       big_snowman1: 1416233567
       big_snowman2: -290123546
       cat_2: -755016770
