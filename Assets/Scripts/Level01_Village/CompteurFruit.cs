@@ -8,7 +8,16 @@ namespace Arielle
 
         [SerializeField] private TMP_Text texte;
         [SerializeField] private int objectif = 10;
-        private CompteurFruitRegleJeu regles = new CompteurFruitRegleJeu();
+
+
+        private CompteurFruitRegleJeu regles;
+
+        private void Awake()
+        {
+            regles = new CompteurFruitRegleJeu(objectif);
+        }
+
+
         public int Nombre => regles.Nombre;
 
         public int Objectif => objectif;

@@ -10,9 +10,21 @@ namespace Arielle
             private set;
         } = 0;
 
+        public int Maximum
+        {
+            get;
+            private set;
+        }
+
+        public CompteurFruitRegleJeu(int maximum)
+        {
+            Maximum = maximum;
+        }
+
         public void Ajouter()
         {
-            Nombre++;
+            if (Nombre < Maximum)
+                Nombre++;
         }
 
         public void Retirer()
