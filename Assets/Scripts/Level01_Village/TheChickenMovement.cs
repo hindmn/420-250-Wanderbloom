@@ -11,6 +11,8 @@ namespace Arielle
 
         [SerializeField] private float vitesse = 2f;
         [SerializeField] private float pause = 1.5f;
+
+        [SerializeField] private AudioClip sonVol;
         [SerializeField] private Transform player;
 
         private Rigidbody2D rb;
@@ -55,6 +57,7 @@ namespace Arielle
             if (Time.time < finPause) return;
 
             compteur.RetirerFruit();
+            GetComponent<AudioSource>().PlayOneShot(sonVol);
             Debug.Log("Fruit volé ! Il reste : " + compteur.Nombre);
 
             finPause = Time.time + pause;
