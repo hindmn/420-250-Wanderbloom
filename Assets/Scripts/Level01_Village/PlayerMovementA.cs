@@ -12,6 +12,7 @@ namespace Arielle
 
         [SerializeField] private float vitesse = 4f;
         [SerializeField] private InputAction deplacement;
+        [SerializeField] private InputAction bond;
         private Rigidbody2D rigidb;
         private Vector2 direction;
         
@@ -26,11 +27,13 @@ namespace Arielle
         private void OnEnable()
         {
             deplacement.Enable();
+            bond.Enable();
         }
 
         private void OnDisable()
         {
             deplacement.Disable();
+            bond.Disable();
         }
 
 

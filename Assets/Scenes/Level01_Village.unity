@@ -12752,6 +12752,24 @@ MonoBehaviour:
       m_Flags: 8
     m_Flags: 0
     m_Priority: 0
+  bond:
+    m_Name: Bond
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: c5f42ea6-e014-43e2-b0a2-781eb0237325
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: ffa1b959-7d05-4a39-82c6-2dbb03757d07
+      m_Path: <Keyboard>/space
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Bond
+      m_Flags: 0
+    m_Flags: 0
+    m_Priority: 0
 --- !u!4 &1077245891 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6178351275073618876, guid: 5d127c7981a87ab47be5155512d9dddf, type: 3}
