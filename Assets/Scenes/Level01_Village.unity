@@ -23263,6 +23263,7 @@ MonoBehaviour:
   vitesse: 2
   pause: 1.5
   sonVol: {fileID: 8300000, guid: 9aea5e197cee4b34b9d997806a174c25, type: 3}
+  effetNuage: {fileID: 6213908199933561639, guid: d184b86ae99ac6b47b04c09e68afa113, type: 3}
   player: {fileID: 1077245891}
 --- !u!82 &2011894013
 AudioSource:

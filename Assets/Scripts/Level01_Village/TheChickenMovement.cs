@@ -13,6 +13,7 @@ namespace Arielle
         [SerializeField] private float pause = 1.5f;
 
         [SerializeField] private AudioClip sonVol;
+        [SerializeField] private GameObject effetNuage;
         [SerializeField] private Transform player;
 
         private Rigidbody2D rb;
@@ -58,6 +59,7 @@ namespace Arielle
 
             compteur.RetirerFruit();
             GetComponent<AudioSource>().PlayOneShot(sonVol);
+            Instantiate(effetNuage, collision.GetContact(0).point, Quaternion.identity);
             Debug.Log("Fruit volé ! Il reste : " + compteur.Nombre);
 
             finPause = Time.time + pause;
