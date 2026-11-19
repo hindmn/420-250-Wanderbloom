@@ -43,6 +43,10 @@ public class LivesManager : MonoBehaviour
         //Si le joueur est sur la glace, l'animal poulet ne peut pas le toucher
         if (PlayerIsOnIce()) { return; }
 
+        //À chaque fois que le joueur se fait toucher par un poulet, il perd 1 vie = 1 coeur.
+        lives--;
+        HeartChanges();
+
         //Si le Chicken touche le Player une 4eme fois, le jeu est terminé.
         if (lives <= 0)
         {
@@ -50,9 +54,6 @@ public class LivesManager : MonoBehaviour
             return;
         }
 
-        //À chaque fois que le joueur se fait toucher par un poulet, il perd 1 vie = 1 coeur.
-        lives--;
-        HeartChanges();
         Respawn();
         dialog.ShowScreen();
     }
