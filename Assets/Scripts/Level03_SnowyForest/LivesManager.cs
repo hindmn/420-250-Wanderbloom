@@ -47,7 +47,7 @@ public class LivesManager : MonoBehaviour
         lives--;
         HeartChanges();
 
-        //Si le Chicken touche le Player une 4eme fois, le jeu est terminé.
+        //Si le Chicken touche le Player une 3eme fois, le jeu est terminé.
         if (lives <= 0)
         {
             GameOver();
