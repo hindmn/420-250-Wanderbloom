@@ -13,11 +13,18 @@ namespace Arielle
         [SerializeField] private float vitesse = 4f;
         [SerializeField] private InputAction deplacement;
         [SerializeField] private InputAction bond;
+
+        [SerializeField] private float vitesseBond = 12f;
+        [SerializeField] private float dureeBond = 0.15f;
+        [SerializeField] private float delaiBond = 1f;
+
         private Rigidbody2D rigidb;
         private Vector2 direction;
-        
 
-        
+        private float finBond = 0f;
+        private float prochainBond = 0f;
+        private Vector2 directionBond;
+
         private void Awake()
         {
             rigidb = GetComponent<Rigidbody2D>();
@@ -40,13 +47,24 @@ namespace Arielle
         private void Update()
         {
             direction = deplacement.ReadValue<Vector2>().normalized;
+            if(bond.WasPressedThisFrame() && Time.time >= prochainBond && direction != Vector2.zero)
+            {
+                directionBond = direction;
+                finBond = Time.time + dureeBond;
+                prochainBond = Time.time + delaiBond;
+            }
             
 
         }
 
         private void FixedUpdate()
         {
-            rigidb.linearVelocity = direction * vitesse;
+            //rigidb.linearVelocity = direction * vitesse;
+            if (Time.time < finBond)
+                rigidb.linearVelocity = directionBond * vitesseBond;
+            else
+                rigidb.linearVelocity = direction * vitesse;
+
             rigidb.position = Limites.Limiter(rigidb.position, limiteMin, limiteMax);
         }
 
