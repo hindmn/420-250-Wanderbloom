@@ -14,6 +14,7 @@ public class LivesManager : MonoBehaviour
     //Réutilise l'écran de victoire en changeant juste son contenu (le titre, message)
     [SerializeField] private ScreenVictory gameOver;
     [SerializeField] private AudioSource backgroundAudio;
+    [SerializeField] private DialogManager dialog;
 
     private int lives;
     private Vector2 startPos;
@@ -53,6 +54,7 @@ public class LivesManager : MonoBehaviour
         lives--;
         HeartChanges();
         Respawn();
+        dialog.ShowScreen();
     }
 
     private void HeartChanges()
@@ -82,6 +84,7 @@ public class LivesManager : MonoBehaviour
     private void Respawn()
     {//Après chaque essaie, le joueur revient à sa position et vitesse de départ (vitesse = 0)
         player.position = startPos;
+        player.transform.position = startPos;
         player.linearVelocity = Vector2.zero;
     }
     private void GameOver()
