@@ -315,6 +315,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6379810741407688527, guid: fb97413c38b4e6949afb31ba3ad3dd64, type: 3}
   m_PrefabInstance: {fileID: 1664587287}
   m_PrefabAsset: {fileID: 0}
+--- !u!50 &175901962 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 6877911862978571544, guid: fb97413c38b4e6949afb31ba3ad3dd64, type: 3}
+  m_PrefabInstance: {fileID: 1664587287}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &181457931
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4341,6 +4346,61 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f656e896c21415041aedf0e42a310905, type: 3}
+--- !u!1 &455773525
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 455773527}
+  - component: {fileID: 455773526}
+  m_Layer: 0
+  m_Name: LivesManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &455773526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455773525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d076b597373c8b34fb7f1572cd9d5748, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: SnowyForest::LivesManager
+  maxLives: 3
+  player: {fileID: 175901962}
+  iceTile: {fileID: 316138234}
+  hearts:
+  - {fileID: 272818001}
+  - {fileID: 53033970}
+  - {fileID: 796734816}
+  fullHeart: {fileID: 2330573859070129638, guid: f9bed875478635f419c7274c5bae4a19, type: 3}
+  emptyHeart: {fileID: -3126065971367815617, guid: f9bed875478635f419c7274c5bae4a19, type: 3}
+  gameOver: {fileID: 0}
+  backgroundAudio: {fileID: 1607430031}
+--- !u!4 &455773527
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455773525}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -34.08213, y: -5.86191, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &471269089
 GameObject:
   m_ObjectHideFlags: 0
@@ -40164,3 +40224,4 @@ SceneRoots:
   - {fileID: 7628712567927128050}
   - {fileID: 1700909989}
   - {fileID: 1972890449}
+  - {fileID: 455773527}
