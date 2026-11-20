@@ -70,6 +70,7 @@ Les contrôles et interactions supplémentaires peuvent varier selon le niveau.
 ├── Packages/
 ├── ProjectSettings/
 └── README.md
+└── TP02_WanderBloom.docx
 ```
 
 Les ressources, scripts et scènes sont organisés par catégorie afin de faciliter le développement et la maintenance du projet.
