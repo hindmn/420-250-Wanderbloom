@@ -7,7 +7,13 @@ namespace Arielle
     {
 
         [SerializeField] private GameObject[] prefabsFruits;
-        [SerializeField] private int nombreFruits = 14;
+        //[SerializeField] private int nombreFruits = 14;
+        [SerializeField] private int nombreTotal = 15;
+        [SerializeField] private int nombreAuDepart = 3;
+        [SerializeField] private float intervalle = 4f;
+
+        private int nombreApparus = 0;
+        private float prochainFruit = 0f;
         [SerializeField] private Vector2 zoneMin = new Vector2(-9f, -4f);
         [SerializeField] private Vector2 zoneMax = new Vector2(9f, 4f);
         [SerializeField] private float rayonLibre = 0.5f;
@@ -15,12 +21,28 @@ namespace Arielle
 
         private void Start()
         {
-            for(int i = 0; i < nombreFruits; i++)
+
+            for (int i = 0; i < nombreAuDepart; i++)
             {
                 FaireApparaitreUnFruit();
+            }
 
+            prochainFruit = Time.time + intervalle;
+        }
+
+
+        private void Update()
+        {
+            if (nombreApparus >= nombreTotal) return;
+
+            if (Time.time >= prochainFruit)
+            {
+                FaireApparaitreUnFruit();
+                prochainFruit = Time.time + intervalle;
             }
         }
+
+
 
         private void FaireApparaitreUnFruit()
         {
@@ -41,6 +63,7 @@ namespace Arielle
                 {
                     GameObject prefab = prefabsFruits[Random.Range(0, prefabsFruits.Length)];
                     Instantiate(prefab, position, Quaternion.identity, transform);
+                    nombreApparus++;
                     return;
                 }
             }
