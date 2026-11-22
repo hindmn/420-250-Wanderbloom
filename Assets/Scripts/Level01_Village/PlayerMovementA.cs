@@ -18,6 +18,8 @@ namespace Arielle
         [SerializeField] private float dureeBond = 0.15f;
         [SerializeField] private float delaiBond = 1f;
 
+        [SerializeField] private AudioClip sonBond;
+
         private Rigidbody2D rigidb;
         private Vector2 direction;
 
@@ -52,6 +54,7 @@ namespace Arielle
                 directionBond = direction;
                 finBond = Time.time + dureeBond;
                 prochainBond = Time.time + delaiBond;
+                GetComponent<AudioSource>().PlayOneShot(sonBond);
             }
             
 
