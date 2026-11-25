@@ -6,6 +6,7 @@ using UnityEditor.Animations;
 using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.TestTools;
+using System.Collections.Generic;
 
 public class PresentConfigTests
 {
@@ -20,6 +21,7 @@ public class PresentConfigTests
         const string expectedTrigger = "Open";
         const string expectedSparklesName = "Sparkles";
         const string expectedBellSound = "mixkit-christmas-magic-bell-hit-939";
+        const string presentGroupName = "Presents Group";
 
         //Scène
         SceneAsset sceneAsset = AssetDatabase.LoadAssetAtPath<SceneAsset>(scenePath);
@@ -28,11 +30,18 @@ public class PresentConfigTests
         Assert.IsTrue(scene.isLoaded, "La scène n'est pas chargée.");
 
         //Cadeaux
-        GameObject[] presents = Array.FindAll(scene.GetRootGameObjects(), go => go.name.StartsWith(presentName));
-        Assert.AreEqual(expectedCount, presents.Length,
-            $"Il doit y avoir {expectedCount} cadeaux à la racine de la scène.");
-        
-        foreach(GameObject present in presents)
+        GameObject group = Array.Find(scene.GetRootGameObjects(), go => go.name == presentGroupName);
+        Assert.IsNotNull(group, $"Le groupe {presentGroupName} n'existe pas.");
+        List<GameObject> presents = new List<GameObject>();
+
+        foreach (Transform enfant in group.transform)
+        {
+            if (enfant.name.StartsWith(presentName)) presents.Add(enfant.gameObject);
+        }
+        Assert.AreEqual(expectedCount, presents.Count,
+            $"Le total de cadeaux doit être {expectedCount} dans le groupe {presentGroupName}");
+
+        foreach (GameObject present in presents)
         {
             string nom = present.name;
             Assert.IsTrue(present.activeSelf, $"{nom} doit être activé dans la scène.");
@@ -43,6 +52,7 @@ public class PresentConfigTests
             Assert.IsTrue(zone.isTrigger,
                 "Le Box Collider 2D doit être un trigger pour détecter le joueur sans le bloquer.");
 
+            //Animation
             var animator = present.GetComponent<Animator>();
             Assert.IsNotNull(animator, $"Il manque l'Animator pour {nom}.");
             Assert.IsTrue(animator.enabled, $"L'Animator de {nom} doit être activé.");
@@ -58,7 +68,7 @@ public class PresentConfigTests
                 $"L'état initial attendue est {expectedDefaultState}.");
 
             var openParam = Array.Find(controller.parameters, p => p.name == expectedTrigger);
-            Assert.IsNotNull(openParam, $"Le paramètre {openParam} n'existe pas.");
+            Assert.IsNotNull(openParam, $"Le paramètre {expectedTrigger} n'existe pas.");
             Assert.AreEqual(AnimatorControllerParameterType.Trigger, openParam.type,
                 $"Le type du paramètre {expectedTrigger} doit être un Trigger.");
 
@@ -66,7 +76,40 @@ public class PresentConfigTests
                 t => t.destinationState.name == expectedOpenState);
             Assert.IsNotNull(openTransition,
                 $"Il n'y a aucune transition de {expectedDefaultState} à {expectedOpenState}.");
-            
+            Assert.IsFalse(openTransition.hasExitTime,
+                "La transition doit partir directement après sans Exit Time.");
+            Assert.IsTrue(Array.Exists(openTransition.conditions, c => c.parameter == expectedTrigger),
+                $"La condition de la transition doit être {expectedTrigger}.");
+
+            //Effet sonore
+            var audio = present.GetComponent<AudioSource>();
+            Assert.IsNotNull(audio, $"Le composant AudioSource pour {nom} est manquant.");
+            Assert.IsTrue(audio.enabled, $"Il faut activer l'AudioSource pour {nom}.");
+            Assert.IsFalse(audio.playOnAwake, $"L'AudioSource de {nom} doit jouer uniquement à l'ouverture.");
+            Assert.AreEqual(0f, audio.spatialBlend, $"Le son pour {nom} doit être en 2D donc Spatial Blend = 0.");
+
+            var presentScript = present.GetComponent<Present>();
+            Assert.IsNotNull(presentScript, $"Il faut ajouter un composant du script Present dans {nom}.");
+            SerializedObject serializedObject = new SerializedObject(presentScript);
+
+            var audioClip = serializedObject.FindProperty("sparklesSound").objectReferenceValue as AudioClip;
+            Assert.IsNotNull(audioClip, $"Il faut assigné un son au champ Sparkles Sound dans l'Inspector de {nom}.");
+            Assert.AreEqual(expectedBellSound, audioClip.name, $"L'effet sonore attendue est {expectedBellSound}.");
+
+            //Étincelles (Sparkles)
+            Transform transformSparkles = present.transform.Find(expectedSparklesName);
+            Assert.IsNotNull(transformSparkles, $"L'enfant {expectedSparklesName} dans {nom} est manquant.");
+            var sparkles = transformSparkles.GetComponent<ParticleSystem>();
+            Assert.IsNotNull(sparkles, $"Le Particle System pour {expectedSparklesName} est manquant.");
+            //Vérifie que c'est le même objet!
+            Assert.AreSame(sparkles, serializedObject.FindProperty("sparkles").objectReferenceValue,
+                $"Il faut que le champ Sparkles de {nom} pointe vers ses propres étincelles.");
+
+            var main = sparkles.main;
+            Assert.IsFalse(main.playOnAwake, "Les étincelles ne doivent pas jouer au démarrage.");
+            Assert.IsFalse(main.loop, $"Les étincelles de {nom} doivent jouer uniquement UNE fois.");
+            Assert.AreEqual(ParticleSystemStopAction.Destroy, main.stopAction,
+                $"Il faut que les étincelles de {nom} soient détruites à la fin.");
         }
     }
 }
