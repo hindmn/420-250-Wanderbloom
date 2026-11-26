@@ -10343,8 +10343,8 @@ Transform:
   m_GameObject: {fileID: 884962746}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17.081192, y: -3.0075176, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 17.081192, y: -3.0288, z: 0}
+  m_LocalScale: {x: 1, y: 1.1700228, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1689910931}
@@ -11950,8 +11950,8 @@ Transform:
   m_GameObject: {fileID: 1028318260}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.16, z: 0}
-  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_LocalPosition: {x: 0.28, y: -0.2, z: 0}
+  m_LocalScale: {x: 3.3, y: 3.3, z: 3.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1371990901}
@@ -12917,8 +12917,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13f7782fbbf2add4c832448a4c5913f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Arielle.PlayerMovementA
-  limiteMin: {x: -10, y: -5}
-  limiteMax: {x: 10, y: 5}
+  limiteMin: {x: -10.3, y: -4.3}
+  limiteMax: {x: 10.3, y: 4.3}
   vitesse: 4
   deplacement:
     m_Name: Deplacement
@@ -13494,8 +13494,8 @@ Transform:
   m_GameObject: {fileID: 1109488651}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17.075401, y: -0.9940219, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 17.075401, y: -0.909, z: 0}
+  m_LocalScale: {x: 1, y: 1.5101188, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1689910931}
@@ -17193,8 +17193,8 @@ Transform:
   m_GameObject: {fileID: 1402458158}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.894597, y: 0.0059781075, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -3.8287, y: 0.0272, z: 0}
+  m_LocalScale: {x: 1.0425, y: 1.0425, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1689910931}
@@ -23330,8 +23330,8 @@ Transform:
   m_GameObject: {fileID: 1894333294}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.7426424, y: -3.9544199, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -3.7426424, y: -4.0623, z: 0}
+  m_LocalScale: {x: 1, y: 1.2159, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1689910931}
@@ -24250,8 +24250,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c5c5fdf443f4b7468a1cacbd9be9aae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TheChickenMovement
-  limiteMin: {x: -10, y: -5}
-  limiteMax: {x: 10, y: 5}
+  limiteMin: {x: -10.3, y: -4.3}
+  limiteMax: {x: 10.3, y: 4.3}
   vitesse: 2
   pause: 1.5
   sonVol: {fileID: 8300000, guid: 9aea5e197cee4b34b9d997806a174c25, type: 3}
@@ -24438,7 +24438,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 4.83
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
