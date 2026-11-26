@@ -17,8 +17,8 @@ namespace Arielle
 
 
         [SerializeField] private Sprite emojiVert;
-        [SerializeField] private Sprite emojiOrange;
-        [SerializeField] private Sprite emojiRouge;
+        [SerializeField] private Sprite emojiBleu;
+        [SerializeField] private Sprite emojiMauve;
 
         [SerializeField] private string nomSceneMenu = "MainMenu";
 
@@ -50,12 +50,12 @@ namespace Arielle
             }
             else if(pommes >= 5)
             {
-                imageEmoji.sprite = emojiOrange;
+                imageEmoji.sprite = emojiBleu;
                 texteResultat.text = "Presque ! Tu as ramassé " + pommes + " pommes sur " + compteur.Objectif + ".";
             }
             else
             {
-                imageEmoji.sprite = emojiRouge;
+                imageEmoji.sprite = emojiMauve;
                 texteResultat.text = "Oh mince... Tu as ramassé seulement " + pommes + " pommes.";
             }
 

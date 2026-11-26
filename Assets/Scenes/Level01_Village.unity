@@ -1392,7 +1392,7 @@ GameObject:
   - component: {fileID: 115528893}
   - component: {fileID: 115528892}
   m_Layer: 5
-  m_Name: TexteTemps
+  m_Name: TexteTempsFin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10121,6 +10121,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Arielle.NiveauA
   chrono: {fileID: 804660817}
   compteur: {fileID: 1077245892}
+  panneauFin: {fileID: 8234697}
+  texteResultat: {fileID: 186684014}
+  texteTemps: {fileID: 115528892}
+  imageEmoji: {fileID: 571569637}
+  emojiVert: {fileID: -5012530797647128665, guid: 00eb4d8900e619445b8d022585bce4fb, type: 3}
+  emojiOrange: {fileID: -781786180380444386, guid: 00eb4d8900e619445b8d022585bce4fb, type: 3}
+  emojiRouge: {fileID: 8170982129437301497, guid: 00eb4d8900e619445b8d022585bce4fb, type: 3}
+  nomSceneMenu: MainMenu
 --- !u!1 &816033704
 GameObject:
   m_ObjectHideFlags: 0
