@@ -61,7 +61,7 @@ namespace Arielle
 
 
             int secondes = Mathf.CeilToInt(chrono.TempsEcoule);
-            texteTemps.text = "Temps écoulé : " + (secondes / 60).ToString("00") + " : " + (secondes % 60).ToString("00");
+            texteTemps.text = "Temps écoulé - " + (secondes / 60).ToString("00") + " : " + (secondes % 60).ToString("00");
 
             /*if (victoire)
                 Debug.Log("Victoire!!!!");

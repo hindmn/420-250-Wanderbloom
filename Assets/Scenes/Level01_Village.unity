@@ -10341,7 +10341,7 @@ MonoBehaviour:
   imageEmoji: {fileID: 571569637}
   emojiVert: {fileID: -5012530797647128665, guid: 00eb4d8900e619445b8d022585bce4fb, type: 3}
   emojiBleu: {fileID: -781786180380444386, guid: 00eb4d8900e619445b8d022585bce4fb, type: 3}
-  emojiMauve: {fileID: 0}
+  emojiMauve: {fileID: 8170982129437301497, guid: 00eb4d8900e619445b8d022585bce4fb, type: 3}
   nomSceneMenu: MainMenu
 --- !u!1 &816033704
 GameObject:
