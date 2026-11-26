@@ -1,4 +1,7 @@
+using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 namespace Arielle
 {
@@ -6,6 +9,18 @@ namespace Arielle
     {
         [SerializeField] private ChronoCompteurTemps chrono;
         [SerializeField] private CompteurFruit compteur;
+
+        [SerializeField] private GameObject panneauFin;
+        [SerializeField] private TMP_Text texteResultat;
+        [SerializeField] private TMP_Text texteTemps;
+        [SerializeField] private Image imageEmoji;
+
+
+        [SerializeField] private Sprite emojiVert;
+        [SerializeField] private Sprite emojiOrange;
+        [SerializeField] private Sprite emojiRouge;
+
+        [SerializeField] private string nomSceneMenu = "MainMenu";
 
         private bool partieFinie = false;
 
@@ -24,11 +39,50 @@ namespace Arielle
         {
             partieFinie = true;
             Time.timeScale = 0f;
+            panneauFin.SetActive(true);
 
-            if (victoire)
+            int pommes = compteur.Nombre;
+
+            if(pommes >= compteur.Objectif)
+            {
+                imageEmoji.sprite = emojiVert;
+                texteResultat.text = "Victoire!!! Tu as rammssé " + pommes + " pommes en moins de 60 secondes!!!";
+            }
+            else if(pommes >= 5)
+            {
+                imageEmoji.sprite = emojiOrange;
+                texteResultat.text = "Presque ! Tu as ramassé " + pommes + " pommes sur " + compteur.Objectif + ".";
+            }
+            else
+            {
+                imageEmoji.sprite = emojiRouge;
+                texteResultat.text = "Oh mince... Tu as ramassé seulement " + pommes + " pommes.";
+            }
+
+
+            int secondes = Mathf.CeilToInt(chrono.TempsEcoule);
+            texteTemps.text = "Temps écoulé : " + (secondes / 60).ToString("00") + " : " + (secondes % 60).ToString("00");
+
+            /*if (victoire)
                 Debug.Log("Victoire!!!!");
             else
-                Debug.Log("Défaite, temps écoulé!!");
+                Debug.Log("Défaite, temps écoulé!!");*/
+        }
+
+        public void Rejouer()
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+
+        public void AllerAuMenu()
+        {
+            Time.timeScale = 1f;
+
+            if (Application.CanStreamedLevelBeLoaded(nomSceneMenu))
+                SceneManager.LoadScene(nomSceneMenu);
+            else
+                Debug.LogWarning("La scène " + nomSceneMenu + " n'existe pas encore.");
         }
     }
 }

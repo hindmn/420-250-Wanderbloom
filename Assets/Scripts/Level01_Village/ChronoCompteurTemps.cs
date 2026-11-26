@@ -14,6 +14,8 @@ namespace Arielle
 
         public bool EstTermine => regles.EstTermine;
 
+        public float TempsEcoule => duree - regles.TempsRestant;
+
         private void Start()
         {
             couleurNorm = texte.color;
