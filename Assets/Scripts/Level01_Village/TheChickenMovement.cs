@@ -1,6 +1,4 @@
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 namespace Arielle
 {
@@ -19,7 +17,10 @@ namespace Arielle
         private Rigidbody2D rb;
         private SpriteRenderer sr;
         private Animator animator;
+        private AudioSource audioSource;
         private float finPause = 0f;
+
+        private bool EstEnPause => Time.time < finPause;
 
 
         private void Awake()
@@ -27,18 +28,26 @@ namespace Arielle
             rb = GetComponent<Rigidbody2D>();
             sr = GetComponent<SpriteRenderer>();
             animator = GetComponent<Animator>();
+            audioSource = GetComponent<AudioSource>();
         }
 
 
         private void FixedUpdate()
         {
-            if(Time.time < finPause)
-            {
-                rb.linearVelocity = Vector2.zero;
-                animator.SetBool("EnMarche", false);
-                return;
-            }
+            if (EstEnPause)
+                Arreter();
+            else
+                PoursuivreJoueur();
+        }
 
+        private void Arreter()
+        {
+            rb.linearVelocity = Vector2.zero;
+            animator.SetBool("EnMarche", false);
+        }
+
+        public void PoursuivreJoueur()
+        {
             Vector2 direction = ((Vector2)player.position - rb.position).normalized;
             rb.linearVelocity = direction * vitesse;
             rb.position = Limites.Limiter(rb.position, limiteMin, limiteMax);
@@ -46,28 +55,22 @@ namespace Arielle
 
             if (direction.x != 0)
                 sr.flipX = direction.x < 0;
-            
-
         }
 
         private void OnCollisionEnter2D(Collision2D collision)
         {
-            Debug.Log("La poule touche : " + collision.gameObject.name);
-
-            // Cherche le compteur sur l'objet touché ou sur son parent
             CompteurFruit compteur = collision.gameObject.GetComponentInParent<CompteurFruit>();
-            if (compteur == null) return;
+            if (compteur == null || EstEnPause) return;
 
-            // Déjà en pause : elle ne peut pas voler de nouveau
-            if (Time.time < finPause) return;
+            VolerFruit(compteur, collision.GetContact(0).point);
+        }
 
+        public void VolerFruit(CompteurFruit compteur, Vector2 pointContact)
+        {
             compteur.RetirerFruit();
-            GetComponent<AudioSource>().PlayOneShot(sonVol);
-            Instantiate(effetNuage, collision.GetContact(0).point, Quaternion.identity);
-            Debug.Log("Fruit volé ! Il reste : " + compteur.Nombre);
-
+            audioSource.PlayOneShot(sonVol);
+            Instantiate(effetNuage, pointContact, Quaternion.identity);
             finPause = Time.time + pause;
-
         }
     }
 }
