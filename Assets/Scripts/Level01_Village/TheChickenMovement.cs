@@ -13,6 +13,8 @@ namespace Arielle
         [SerializeField] private Transform[] pointsPatrouille;
         [SerializeField] private float distanceDetection = 3f;
 
+        [SerializeField] private float distanceArrivee = 0.1f;
+
         [SerializeField] private AudioClip sonVol;
         [SerializeField] private GameObject effetNuage;
         [SerializeField] private Transform player;
@@ -23,6 +25,8 @@ namespace Arielle
         private AudioSource audioSource;
         private float finPause = 0f;
         private int indexPoint = 0;
+
+        private const string ParamEnMarche = "EnMarche";
 
 
         private bool EstEnPause => Time.time < finPause;
@@ -51,7 +55,7 @@ namespace Arielle
         private void Arreter()
         {
             rb.linearVelocity = Vector2.zero;
-            animator.SetBool("EnMarche", false);
+            animator.SetBool(ParamEnMarche, false);
         }
 
         public void PoursuivreJoueur()
@@ -70,7 +74,7 @@ namespace Arielle
             Vector2 cible = pointsPatrouille[indexPoint].position;
             SeDeplacerVers(cible, vitessePatrouille);
 
-            if (Vector2.Distance(rb.position, cible) < 0.1f)
+            if (Vector2.Distance(rb.position, cible) < distanceArrivee)
                 indexPoint = (indexPoint + 1) % pointsPatrouille.Length;
         }
 
@@ -79,7 +83,7 @@ namespace Arielle
             Vector2 direction = (cible - rb.position).normalized;
             rb.linearVelocity = direction * vitesseDeplacement;
             rb.position = Limites.Limiter(rb.position, limiteMin, limiteMax);
-            animator.SetBool("EnMarche", true);
+            animator.SetBool(ParamEnMarche, true);
 
             if (direction.x != 0)
                 sr.flipX = direction.x < 0;
@@ -99,6 +103,22 @@ namespace Arielle
             audioSource.PlayOneShot(sonVol);
             Instantiate(effetNuage, pointContact, Quaternion.identity);
             finPause = Time.time + pause;
+        }
+
+        private void OnDrawGizmosSelected()
+        {
+            Gizmos.color = Color.yellow;
+            Gizmos.DrawWireSphere(transform.position, distanceDetection);
+
+            if (pointsPatrouille == null) return;
+            Gizmos.color = Color.cyan;
+            for (int i = 0; i < pointsPatrouille.Length; i++)
+            {
+                if (pointsPatrouille[i] == null) continue;
+                Transform suivant = pointsPatrouille[(i + 1) % pointsPatrouille.Length];
+                if (suivant != null)
+                    Gizmos.DrawLine(pointsPatrouille[i].position, suivant.position);
+            }
         }
     }
 }
