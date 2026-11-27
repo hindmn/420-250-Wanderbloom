@@ -136,7 +136,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8234698
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12428,11 +12428,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 8234698}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: -150, y: 90}
   m_SizeDelta: {x: 368, y: 116}
-  m_Pivot: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1014223739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23402,7 +23402,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 100}
   m_SizeDelta: {x: 368, y: 116}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1802997565
@@ -25599,6 +25599,7 @@ MonoBehaviour:
   - {fileID: 786481079}
   - {fileID: 72743040}
   distanceDetection: 3
+  distanceArrivee: 0.1
   sonVol: {fileID: 8300000, guid: 9aea5e197cee4b34b9d997806a174c25, type: 3}
   effetNuage: {fileID: 6213908199933561639, guid: d184b86ae99ac6b47b04c09e68afa113, type: 3}
   player: {fileID: 1077245891}
@@ -25782,8 +25783,8 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 56.19801
-  orthographic: 1
+  field of view: 49.373077
+  orthographic: 0
   orthographic size: 5
   m_Depth: -1
   m_CullingMask:

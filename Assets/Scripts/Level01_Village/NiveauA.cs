@@ -46,7 +46,7 @@ namespace Arielle
             if(pommes >= compteur.Objectif)
             {
                 imageEmoji.sprite = emojiVert;
-                texteResultat.text = "Victoire!!! Tu as rammssé " + pommes + " pommes en moins de 60 secondes!!!";
+                texteResultat.text = "Victoire!!! Tu as ramassé " + pommes + " pommes en moins de 60 secondes!!!";
             }
             else if(pommes >= 5)
             {
