@@ -8,7 +8,10 @@ namespace Arielle
         [SerializeField] private Vector2 limiteMax = new Vector2(10f, 5f);
 
         [SerializeField] private float vitesse = 2f;
+        [SerializeField] private float vitessePatrouille = 1f;
         [SerializeField] private float pause = 1.5f;
+        [SerializeField] private Transform[] pointsPatrouille;
+        [SerializeField] private float distanceDetection = 3f;
 
         [SerializeField] private AudioClip sonVol;
         [SerializeField] private GameObject effetNuage;
@@ -19,8 +22,11 @@ namespace Arielle
         private Animator animator;
         private AudioSource audioSource;
         private float finPause = 0f;
+        private int indexPoint = 0;
+
 
         private bool EstEnPause => Time.time < finPause;
+        private bool JoueurEstProche => Vector2.Distance(rb.position, player.position) < distanceDetection;
 
 
         private void Awake()
@@ -36,8 +42,10 @@ namespace Arielle
         {
             if (EstEnPause)
                 Arreter();
-            else
+            else if (JoueurEstProche)
                 PoursuivreJoueur();
+            else
+                Patrouiller();
         }
 
         private void Arreter()
@@ -48,8 +56,28 @@ namespace Arielle
 
         public void PoursuivreJoueur()
         {
-            Vector2 direction = ((Vector2)player.position - rb.position).normalized;
-            rb.linearVelocity = direction * vitesse;
+            SeDeplacerVers(player.position, vitesse); 
+        }
+
+        private void Patrouiller()
+        {
+            if(pointsPatrouille.Length == 0)
+            {
+                Arreter();
+                return;
+            }
+
+            Vector2 cible = pointsPatrouille[indexPoint].position;
+            SeDeplacerVers(cible, vitessePatrouille);
+
+            if (Vector2.Distance(rb.position, cible) < 0.1f)
+                indexPoint = (indexPoint + 1) % pointsPatrouille.Length;
+        }
+
+        private void SeDeplacerVers(Vector2 cible, float vitesseDeplacement) 
+        {
+            Vector2 direction = (cible - rb.position).normalized;
+            rb.linearVelocity = direction * vitesseDeplacement;
             rb.position = Limites.Limiter(rb.position, limiteMin, limiteMax);
             animator.SetBool("EnMarche", true);
 
