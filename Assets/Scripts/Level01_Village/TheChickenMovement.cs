@@ -92,10 +92,10 @@ namespace Arielle
         private void OnCollisionEnter2D(Collision2D collision)
         {
             CompteurFruit compteur = collision.gameObject.GetComponentInParent<CompteurFruit>();
-            //if (compteur == null || EstEnPause) return;
+            if (compteur == null || EstEnPause) return;
 
             //BUG
-            if (compteur == null) return;
+            //if (compteur == null) return;
 
             VolerFruit(compteur, collision.GetContact(0).point);
         }
