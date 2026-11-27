@@ -1,5 +1,5 @@
 {
-    "name": "PlayMode",
+    "name": "Arielle.Tests.PlayMode",
     "rootNamespace": "",
     "references": [
         "UnityEngine.TestRunner",
