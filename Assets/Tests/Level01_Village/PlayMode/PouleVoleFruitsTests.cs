@@ -44,5 +44,21 @@ public class PouleVoleFruitsTests
         //Verifier qu'une pomme a été volée
         Assert.AreEqual(2, compteur.Nombre, "La poule devait voler exactement 1 pomme");
 
+        //Renforcement du test 
+        //Pendant la pause, la poule touche encore le joueur
+        var rbPoule = poule.GetComponent<Rigidbody2D>();
+        Vector2 joueurNow = compteur.transform.position;
+
+        rbPoule.position = joueurNow + Vector2.right * 3f;
+        yield return new WaitForFixedUpdate();
+        yield return new WaitForFixedUpdate();
+
+        //Nouveau contact
+        rbPoule.position = joueurNow + Vector2.right * 0.3f;
+        float fin = Time.time + 0.5f;
+        while (Time.time < fin)
+            yield return null;
+
+        Assert.AreEqual(2, compteur.Nombre, "Pendant sa pause, la poule ne doit pas voler une 2e pomme");
     }
 }
