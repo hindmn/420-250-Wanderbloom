@@ -8,7 +8,7 @@ public class PouleConfigurationTests
 {
     
     [Test]
-    public void LaPouleEstBienConfigurée()
+    public void LaPouleEstBienConfiguree()
     {
         //Chargement de scne et on retrouve le chicken
         EditorSceneManager.OpenScene("Assets/Scenes/Level01_Village.unity");
