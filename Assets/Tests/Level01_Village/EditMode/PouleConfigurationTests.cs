@@ -11,7 +11,7 @@ public class PouleConfigurationTests
     public void LaPouleEstBienConfigurée()
     {
         //Chargement de scne et on retrouve le chicken
-        EditorScneManager.OpenScene("Assets/Scene/Level01_Village.unity");
+        EditorSceneManager.OpenScene("Assets/Scenes/Level01_Village.unity");
         GameObject poule = GameObject.Find("TheChicken");
         Assert.IsNotNull(poule, "La scène doit contenir TheChicken");
 
@@ -31,7 +31,7 @@ public class PouleConfigurationTests
 
 
         //Animator -> Le controller, l'etat initial, le parametre enMarche
-        Animator animator = poule.GetComponent<animator>();
+        Animator animator = poule.GetComponent<Animator>();
         Assert.IsNotNull(animator, "L'Animator est manquant");
         AnimatorController controller = animator.runtimeAnimatorController as AnimatorController;
         Assert.IsNotNull(controller, "Il n'y a aucun Animator Controller qui est assigné");
@@ -39,13 +39,13 @@ public class PouleConfigurationTests
 
         bool trouve = false;
         foreach (AnimatorControllerParameter p in controller.parameters)
-            if (p.name == "EnMarche" && p.type == AnimatorControllerParametersType.Bool)
+            if (p.name == "EnMarche" && p.type == AnimatorControllerParameterType.Bool)
                 trouve = true;
         Assert.IsTrue(trouve, "Le parametre boolean EnMarche est manquant");
 
         //L'audio : AudioSource qui ne joue pas au démarrage
         AudioSource audio = poule.GetComponent<AudioSource>();
-        Assert.isNotNull(audio, "L'AudioSource est manquant");
+        Assert.IsNotNull(audio, "L'AudioSource est manquant");
         Assert.IsFalse(audio.playOnAwake, "Le son ne doit pas jouer au lancement");
     }
 
